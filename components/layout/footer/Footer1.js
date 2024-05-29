@@ -26,9 +26,9 @@ export default function Footer1() {
                                         <div className="widget-content">
                                             <ul className="links-list clearfix">
                                                 <li><Link href="/">Home</Link></li>
-                                                <li><Link href="/about-us">About Us</Link></li>
+                                                <li><Link href="/mission">About Us</Link></li>
                                                 <li><Link href="/career">Career</Link></li>
-                                                <li><Link href="/pricing-table">Clients & Partners</Link></li>
+                                                <li><Link href="/client-partners">Clients & Partners</Link></li>
                                                 <li><Link href="/contact">Contact Us</Link></li>
                                             </ul>
                                         </div>
@@ -48,10 +48,10 @@ export default function Footer1() {
                                     </div>
                                     <div className="widget-content">
                                         <ul className="links-list clearfix">
-                                            <li><Link href="/about-us">Application Development</Link></li>
-                                            <li><Link href="/services1">Outsoursing and Managed Services</Link></li>
-                                            <li><Link href="/career">Strategic Consulting</Link></li>
-                                            <li><Link href="/pricing-table">Flex Support</Link></li>
+                                            <li><Link href="/application-development">Application Development</Link></li>
+                                            <li><Link href="/outsourcing-manages-services">Outsoursing and Managed Services</Link></li>
+                                            <li><Link href="/strategic-consulting">Strategic Consulting</Link></li>
+                                            <li><Link href="/flex-support">Flex Support</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@ export default function Footer1() {
                                     </div>
                                     <div className="widget-content">
                                         <ul className="links-list clearfix">
-                                            <li><Link href="/about-us">SAP GRC</Link></li>
+                                            <li><Link href="/sap-grc">SAP GRC</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -76,13 +76,13 @@ export default function Footer1() {
                                     </div>
                                     <div className="widget-content">
                                         <ul className="links-list clearfix">
-                                            <li><Link href="#">Analytics and Big Data</Link></li>
-                                            <li><Link href="#">SAP Hana</Link></li>
-                                            <li><Link href="#">IT Infrastructure </Link></li>
-                                            <li><Link href="#">Mobility</Link></li>
-                                            <li><Link href="/faq">SAP</Link></li>
-                                            <li><Link href="/faq">Success Factors</Link></li>
-                                            <li><Link href="/faq">SAP MII</Link></li>
+                                            <li><Link href="/bigdata">Analytics and Big Data</Link></li>
+                                            <li><Link href="/sap-hana">SAP Hana</Link></li>
+                                            <li><Link href="/it-infra">IT Infrastructure </Link></li>
+                                            <li><Link href="/mobility">Mobility</Link></li>
+                                            <li><Link href="/sap">SAP</Link></li>
+                                            <li><Link href="/success-factor">Success Factors</Link></li>
+                                            <li><Link href="/sap-mii">SAP MII</Link></li>
                                         </ul>
                                     </div>
                                 </div>
