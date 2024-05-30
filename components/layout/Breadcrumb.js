@@ -3,9 +3,9 @@ import Link from "next/link"
 export default function Breadcrumb({ breadcrumbTitle }) {
     return (
         <>
-            
+
             <section className="page-title centred">
-                <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/page-title.png)' }}></div>
+                <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/background/page-title.png)' }}></div>
                 <div className="auto-container">
                     <div className="content-box">
                         <h1>{breadcrumbTitle}</h1>

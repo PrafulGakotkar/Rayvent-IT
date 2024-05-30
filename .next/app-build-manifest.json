@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/sap-grc/page": [
+    "/application-development/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/sap-grc/page.js"
+      "static/chunks/app/application-development/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -21,10 +21,30 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/application-development/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/application-development/page.js"
+      "static/chunks/app/page.js"
+    ],
+    "/flex-support/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/flex-support/page.js"
+    ],
+    "/sap/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/sap/page.js"
+    ],
+    "/outsourcing-manages-services/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/outsourcing-manages-services/page.js"
+    ],
+    "/data-science/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/data-science/page.js"
     ]
   }
 }

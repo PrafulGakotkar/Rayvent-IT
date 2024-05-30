@@ -67,7 +67,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                             <div className="logo-box">
                                 <figure className="logo">
                                     <Link href="/">
-                                        <img src="assets/images/rayven_logo.png" alt="/" />
+                                        <img src="/assets/images/rayven_logo.png" alt="" />
                                     </Link>
                                 </figure>
                             </div>

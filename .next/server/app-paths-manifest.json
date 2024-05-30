@@ -1,5 +1,10 @@
 {
+  "/page": "app/page.js",
   "/not-found": "app/not-found.js",
-  "/sap-grc/page": "app/sap-grc/page.js",
-  "/application-development/page": "app/application-development/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/application-development/page": "app/application-development/page.js",
+  "/flex-support/page": "app/flex-support/page.js",
+  "/sap/page": "app/sap/page.js",
+  "/outsourcing-manages-services/page": "app/outsourcing-manages-services/page.js",
+  "/data-science/page": "app/data-science/page.js"
 }
