@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/page": [
+    "/sap-grc/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/sap-grc/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -20,16 +20,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
-    ],
-    "/data-science/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/data-science/page.js"
-    ],
-    "/career/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/career/page.js"
     ],
     "/application-development/page": [
       "static/chunks/webpack.js",

@@ -1,6 +1,6 @@
 {
-  "/page": "app/page.js",
   "/not-found": "app/not-found.js",
-  "/application-development/page": "app/application-development/page.js",
-  "/career/page": "app/career/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/sap-grc/page": "app/sap-grc/page.js",
+  "/application-development/page": "app/application-development/page.js"
 }
