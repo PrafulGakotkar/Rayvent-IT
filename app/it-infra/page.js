@@ -102,7 +102,7 @@ export default function Home() {
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                                     <figure className="image-box">
-                                                        <img src="assets/images/service/service-9.jpg" alt="" />
+                                                        <img src="/assets/images/service/it-infrastructure.png" alt="" />
                                                     </figure>
                                                 </div>
                                             </div>
@@ -110,7 +110,7 @@ export default function Home() {
                                             <div className="row clearfix mb_80">
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                                     <figure className="image-box">
-                                                        <img src="assets/images/service/service-9.jpg" alt="" />
+                                                        <img src="/assets/images/service/it-management.png" alt="" />
                                                     </figure>
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 text-column">
@@ -137,7 +137,7 @@ export default function Home() {
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                                     <figure className="image-box">
-                                                        <img src="assets/images/service/service-9.jpg" alt="" />
+                                                        <img src="/assets/images/service/infra-security.png" alt="" />
                                                     </figure>
                                                 </div>
                                             </div>
@@ -145,7 +145,7 @@ export default function Home() {
                                             <div className="row clearfix mb_80">
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                                     <figure className="image-box">
-                                                        <img src="assets/images/service/service-9.jpg" alt="" />
+                                                        <img src="/assets/images/service/workplace-service.png" alt="" />
                                                     </figure>
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 text-column">

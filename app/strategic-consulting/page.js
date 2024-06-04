@@ -86,7 +86,7 @@ export default function Home() {
                                     <div className="service-details-content">
                                         <div className="content-one mb_90">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/service-10.jpg" alt="" />
+                                                <img src="/assets/images/service/strategic-consulting.png" alt="" />
                                             </figure>
                                             <div className="text">
                                                 <h4 className="mb_10">RAYVEN IT is a certified SAP partner and it has over 10 year of experience SAP implementation and support services.</h4>
@@ -153,7 +153,7 @@ export default function Home() {
 
                                                 {/* <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                                     <figure className="image-box">
-                                                        <img src="assets/images/service/service-9.jpg" alt="" />
+                                                        <img src="assets/images/service/service-9.png" alt="" />
                                                     </figure>
                                                 </div> */}
                                             </div>

@@ -84,9 +84,9 @@ export default function Home() {
                                 <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                                     <div className="service-details-content">
                                         <div className="content-one mb_90">
-                                            <figure className="image-box">
-                                                <img src="assets/images/service/service-10.jpg" alt="" />
-                                            </figure>
+                                            <div className="image-box">
+                                                <img src="/assets/images/service/application-development.png" alt="" />
+                                            </div>
                                             <div className="text">
                                                 <h3>We strives to provide our customers quality application development services
                                                 </h3>
@@ -137,7 +137,7 @@ export default function Home() {
                                                 </div>
                                                 {/* <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-9.jpg" alt="" />
+                                    <img src="assets/images/service/service-9.png" alt="" />
                                     </figure>
                                 </div> */}
                                             </div>

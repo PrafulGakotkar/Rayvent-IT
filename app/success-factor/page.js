@@ -10,7 +10,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Success Factor">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Success Factor">
                 <div>
                     <section className="about-section p_relative">
                         <div className="auto-container">
@@ -39,8 +39,8 @@ export default function Home() {
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image_block_one">
                                         <div className="image-box p_relative pr_50 mr_30">
-                                            {/* <figure className="image image-1"><img src="assets/images/resource/about-1.jpg" alt="" /></figure> */}
-                                            <figure className="image image-1"><img src="assets/images/resource/about-2.jpg" alt="" /></figure>
+                                            {/* <figure className="image image-1"><img src="assets/images/resource/about-1.png" alt="" /></figure> */}
+                                            <figure className="image image-1"><img src="/assets/images/resource/success-factor.png" alt="" /></figure>
                                             {/* <div className="video-inner">
                                 <div className="video-btn">
                                     <VideoPopup />
@@ -55,8 +55,8 @@ export default function Home() {
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image_block_one">
                                         <div className="image-box p_relative pr_50 mr_30">
-                                            <figure className="image image-1"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
-                                            {/* <figure className="image image-2"><img src="assets/images/resource/about-2.jpg" alt="" /></figure> */}
+                                            <figure className="image image-1"><img src="/assets/images/resource/experience.png" alt="" /></figure>
+                                            {/* <figure className="image image-2"><img src="assets/images/resource/about-2.png" alt="" /></figure> */}
                                             {/* <div className="video-inner">
                                 <div className="video-btn">
                                     <VideoPopup />

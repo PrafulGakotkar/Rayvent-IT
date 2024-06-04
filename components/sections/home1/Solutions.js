@@ -9,7 +9,7 @@ export default function Solutions() {
                         <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                             <div className="image_block_one">
                                 <div className="image-box p_relative pr_50 mr_30">
-                                    <figure className="image image-1"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
+                                    <figure className="image image-1"><img src="assets/images/resource/112.jpg" alt="" /></figure>
                                     {/* <figure className="image image-2"><img src="assets/images/resource/about-2.jpg" alt="" /></figure> */}
                                     {/* <div className="video-inner">
                                 <div className="video-btn">

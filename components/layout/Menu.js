@@ -87,8 +87,7 @@ export default function Menu() {
                 <li className="dropdown"><Link href="#">About RAYVENT IT</Link>
                     <ul>
                         <li><Link href="/mission">Mission</Link></li>
-                        <li><Link href="/client-partners
-                        ">Client & Partners</Link></li>
+                        <li><Link href="/client-partners">Client & Partners</Link></li>
                         <li><Link href="/contact">Contact Us</Link></li>
                     </ul>
                 </li>

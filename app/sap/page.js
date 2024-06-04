@@ -101,7 +101,7 @@ export default function Home() {
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column mb-30">
                                                     <figure className="image-box">
-                                                        <img src="/assets/images/service/service-9.png" alt="" />
+                                                        <img src="/assets/images/service/sap-erp.png" alt="" />
                                                     </figure>
                                                 </div>
                                             </div>
@@ -120,7 +120,7 @@ export default function Home() {
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                                     <figure className="image-box">
-                                                        <img src="/assets/images/service/service1.png" alt="" />
+                                                        <img src="/assets/images/service/human-capital.png" alt="" />
                                                     </figure>
                                                 </div>
                                             </div>
@@ -129,7 +129,7 @@ export default function Home() {
                                                 <h3>SAP CUSTOMER RELATIONSHIP MANAGEMENT (CRM)</h3>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                                     <figure className="image-box">
-                                                        <img src="/assets/images/service/service2.png" alt="" />
+                                                        <img src="/assets/images/service/crm.png" alt="" />
                                                     </figure>
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 text-column">
@@ -156,7 +156,7 @@ export default function Home() {
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                                     <figure className="image-box">
-                                                        <img src="/assets/images/service/service3.png" alt="" />
+                                                        <img src="/assets/images/service/financial.png" alt="" />
                                                     </figure>
                                                 </div>
                                             </div>
@@ -170,7 +170,7 @@ export default function Home() {
 
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column ">
                                                     <figure className="image-box">
-                                                        <img src="/assets/images/service/service4.png" alt="" />
+                                                        <img src="/assets/images/service/supply-chain.png" alt="" />
                                                     </figure>
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 text-column">

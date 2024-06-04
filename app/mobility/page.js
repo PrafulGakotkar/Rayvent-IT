@@ -85,7 +85,7 @@ export default function Home() {
                                     <div className="service-details-content">
                                         <div className="content-one mb_90">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/service-10.jpg" alt="" />
+                                                <img src="/assets/images/service/mobility.png" alt="" />
                                             </figure>
                                             <div className="text">
                                                 {/* <h2>Strategy & Planning</h2> */}
@@ -114,7 +114,7 @@ export default function Home() {
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                                     <figure className="image-box">
-                                                        <img src="assets/images/service/service-9.jpg" alt="" />
+                                                        <img src="/assets/images/service/sap-flori.png" alt="" />
                                                     </figure>
                                                 </div>
                                             </div>
