@@ -1,8 +1,4 @@
 {
-  "/not-found": "app/not-found.js",
-  "/mobility/page": "app/mobility/page.js",
-  "/sap-mii/page": "app/sap-mii/page.js",
-  "/sap/page": "app/sap/page.js",
-  "/success-factor/page": "app/success-factor/page.js",
-  "/client-partners/page": "app/client-partners/page.js"
+  "/page": "app/page.js",
+  "/not-found": "app/not-found.js"
 }
