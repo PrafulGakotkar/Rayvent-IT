@@ -20,9 +20,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                             <div className="top-right">
                                 {/* <div className="login"><Link href="#">Login</Link></div> */}
                                 <ul className=" login social-links clearfix">
-                                    <li><Link href="#"><i className="fab fa-facebook-f"></i></Link></li>
-                                    <li><Link href="#"><i className="fab fa-twitter"></i></Link></li>
-                                    <li><Link href="#"><i className="fab fa-linkedin-in"></i></Link></li>
+                                    <li><Link href="https://www.facebook.com/people/Rayven-It-Solutions-LLC/100064230364799/" target="_blank"><i className="fab fa-facebook-f"></i></Link></li>
+                                    {/* <li><Link href="#"><i className="fab fa-twitter"></i></Link></li> */}
+                                    <li><Link href="https://www.linkedin.com/company/rayvenit-solutions" target="_blank"><i className="fab fa-linkedin-in"></i></Link></li>
                                 </ul>
                             </div>
                         </div>

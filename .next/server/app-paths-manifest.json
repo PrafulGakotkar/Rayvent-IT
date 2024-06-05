@@ -1,9 +1,9 @@
 {
   "/not-found": "app/not-found.js",
-  "/mobility/page": "app/mobility/page.js",
-  "/sap/page": "app/sap/page.js",
-  "/client-partners/page": "app/client-partners/page.js",
-  "/it-infra/page": "app/it-infra/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/success-factor/page": "app/success-factor/page.js",
   "/sap-mii/page": "app/sap-mii/page.js",
-  "/success-factor/page": "app/success-factor/page.js"
+  "/client-partners/page": "app/client-partners/page.js",
+  "/sap/page": "app/sap/page.js",
+  "/mobility/page": "app/mobility/page.js"
 }
