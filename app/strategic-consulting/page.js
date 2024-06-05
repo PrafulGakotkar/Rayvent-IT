@@ -60,7 +60,7 @@ export default function Home() {
                                                 <div
                                                     className="bg-layer"
                                                     style={{
-                                                        backgroundImage: 'url(assets/images/service/service-7.jpg)',
+                                                        backgroundImage: 'url(assets/images/service/service-7.png)',
                                                     }}
                                                 ></div>
                                                 <h3>

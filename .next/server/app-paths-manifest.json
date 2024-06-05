@@ -1,4 +1,10 @@
 {
-  "/page": "app/page.js",
-  "/not-found": "app/not-found.js"
+  "/not-found": "app/not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/sap-hana/page": "app/sap-hana/page.js",
+  "/it-infra/page": "app/it-infra/page.js",
+  "/sap/page": "app/sap/page.js",
+  "/sap-mii/page": "app/sap-mii/page.js",
+  "/success-factor/page": "app/success-factor/page.js",
+  "/mobility/page": "app/mobility/page.js"
 }
