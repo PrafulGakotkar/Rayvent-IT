@@ -21,15 +21,15 @@ export default function Home() {
                 <About />
                 <Support />
                 <Solutions />
-                <Features />
-                <Services />
-                <WhyChooseUs />
-                <Projects />
-                <Testimonial />
-                <Process />
-                <Funfacts />
-                <Expertise />
-                <News />
+                {/* <Features /> */}
+                {/* <Services /> */}
+                {/* <WhyChooseUs /> */}
+                {/* <Projects /> */}
+                {/* <Testimonial /> */}
+                {/* <Process /> */}
+                {/* <Funfacts /> */}
+                {/* <Expertise /> */}
+                {/* <News /> */}
             </Layout>
         </>
     )
