@@ -4,7 +4,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Flex Support">
+            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Flex Support">
                 <div>
                     <section className="service-details p_relative">
                         <div className="auto-container">
@@ -83,6 +83,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                                     <div className="service-details-content">
+                                        
                                         <div className="content-one mb_90">
                                             <figure className="image-box">
                                                 <img src="/assets/images/service/flex-support.png" alt="" />

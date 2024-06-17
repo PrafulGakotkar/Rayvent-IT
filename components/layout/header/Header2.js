@@ -12,17 +12,17 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="top-inner padding_0">
                             <div className="top-left">
                                 <ul className="info clearfix">
-                                    <li><i className="icon-1"></i>Mon-Fri 8:00 am-6:00 pm</li>
-                                    <li><i className="icon-2"></i><Link href="tel:912136660027">+91-213-666-0027</Link></li>
-                                    <li><i className="icon-3"></i><Link href="mailto:info@example.com">info@example.com</Link></li>
+                                    {/* <li><i className="icon-1"></i>Mon-Fri 8:00 am-6:00 pm</li> */}
+                                    <li><i className="icon-2"></i><Link href="tel:(848)-459-5944">(848)-459-5944</Link></li>
+                                    <li><i className="icon-3"></i><Link href="mailto:info@rayvenit.solutions">info@rayvenit.solutions</Link></li>
                                 </ul>
                             </div>
                             <div className="top-right">
-                                <div className="login"><Link href="/">Login</Link></div>
-                                <ul className="social-links clearfix">
-                                    <li><Link href="/"><i className="fab fa-facebook-f"></i></Link></li>
-                                    <li><Link href="/"><i className="fab fa-twitter"></i></Link></li>
-                                    <li><Link href="/"><i className="fab fa-linkedin-in"></i></Link></li>
+                                {/* <div className="login"><Link href="#">Login</Link></div> */}
+                                <ul className=" login social-links clearfix">
+                                    <li><Link href="https://www.facebook.com/people/Rayven-It-Solutions-LLC/100064230364799/" target="_blank"><i className="fab fa-facebook-f"></i></Link></li>
+                                    {/* <li><Link href="#"><i className="fab fa-twitter"></i></Link></li> */}
+                                    <li><Link href="https://www.linkedin.com/company/rayvenit-solutions" target="_blank"><i className="fab fa-linkedin-in"></i></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="outer-box">
                             <div className="logo-box">
                                 <figure className="logo">
-                                    <Link href="/"><img src="assets/images/rayven_logo.png" alt="" /></Link>
+                                    <Link href="/"><img src="/assets/images/rayven_logo.png" alt="" /></Link>
                                 </figure>
                             </div>
                             <div className="menu-area clearfix">
@@ -50,7 +50,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </div>
                             <ul className="menu-right-content">
                                 <li className="btn-box">
-                                    <Link href="/contact" className="theme-btn-one">Free Consulting</Link>
+                                    {/* <Link href="/contact" className="theme-btn-one">Free Consulting</Link> */}
                                 </li>
                             </ul>
                         </div>
@@ -60,7 +60,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="auto-container">
                         <div className="outer-box">
                             <div className="logo-box">
-                                <figure className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
+                                <figure className="logo"><Link href="/"><img src="/assets/images/rayven_logo.png" alt="" /></Link></figure>
                             </div>
                             <div className="menu-area clearfix">
                                 <nav className="main-menu navbar-expand-md navbar-light">

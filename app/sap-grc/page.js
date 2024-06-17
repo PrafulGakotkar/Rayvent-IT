@@ -4,7 +4,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="SAP GRC">
+            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="SAP GRC">
                 <div>
                     <section className="service-details p_relative">
                         <div className="auto-container">

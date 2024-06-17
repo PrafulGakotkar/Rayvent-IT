@@ -4,7 +4,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="SAP ERP">
+            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="SAP ERP">
                 <div>
                     <section className="service-details p_relative">
                         <div className="auto-container">
@@ -83,7 +83,12 @@ export default function Home() {
                                 </div>
                                 <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                                     <div className="service-details-content">
-                                        
+                                        <div className="content-one mb_90">
+                                            <div className="image-box">
+                                                <img src="/assets/images/service/service-8.jpg" alt="" />
+                                            </div>
+
+                                        </div>
                                         <div className="content-two mb_90">
                                             <div className="row clearfix mb_30">
                                                 <div className="col-lg-6 col-md-6 col-sm-12 text-column">

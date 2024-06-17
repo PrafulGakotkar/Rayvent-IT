@@ -15,7 +15,7 @@ export default function Services() {
                 <div className="auto-container">
                     <div className="sec-title centred mb_50">
                         <span className="sub-title">What We Do</span>
-                        <h2>Provide the Best Consulting <br />in This Industry</h2>
+                        <h2>Provide the Best Consulting <br />in SAP Industry</h2>
                     </div>
                     <div className="row clearfix">
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
@@ -25,11 +25,11 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-7"></i></div>
-                                            <h3><Link href="/strategy-planning">Strategy & Planning</Link></h3>
-                                            <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                            <div className="btn-box">
+                                            <h3><Link href="#">Expert SAP Implementation</Link></h3>
+                                            <p>Seamless SAP implementation tailored to your business needs, ensuring a smooth transition and minimal disruption.</p>
+                                            {/* <div className="btn-box">
                                                 <Link href="/strategy-planning" className="theme-btn-one">Read More</Link>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -42,11 +42,12 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-12"></i></div>
-                                            <h3><Link href="/program-manager">Program Manager</Link></h3>
-                                            <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                            <div className="btn-box">
+                                            <h3><Link href="#">Efficient SAP S/4HANA Migration</Link></h3>
+                                            <p>Comprehensive migration services to SAP S/4HANA, including detailed assessments, planning, and execution.
+                                            </p>
+                                            {/* <div className="btn-box">
                                                 <Link href="/program-manager" className="theme-btn-one">Read More</Link>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -59,11 +60,12 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-8"></i></div>
-                                            <h3><Link href="/tax-management">Tax Management</Link></h3>
-                                            <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                            <div className="btn-box">
+                                            <h3><Link href="#">24/7 Support and Maintenance</Link></h3>
+                                            <p>Round-the-clock support and proactive maintenance to keep your SAP systems running efficiently and securely.
+                                            </p>
+                                            {/* <div className="btn-box">
                                                 <Link href="/tax-management" className="theme-btn-one">Read More</Link>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -76,11 +78,11 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-13"></i></div>
-                                            <h3><Link href="/investment-policy">Investment Policy</Link></h3>
-                                            <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                            <div className="btn-box">
+                                            <h3><Link href="#">Custom SAP Training Programs</Link></h3>
+                                            <p>Tailored training sessions and workshops to empower your team with the knowledge and skills they need to succeed.</p>
+                                            {/* <div className="btn-box">
                                                 <Link href="/investment-policy" className="theme-btn-one">Read More</Link>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -93,11 +95,11 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-14"></i></div>
-                                            <h3><Link href="/financial-advices">Financial Advices</Link></h3>
-                                            <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                            <div className="btn-box">
+                                            <h3><Link href="#">Business Process Optimization</Link></h3>
+                                            <p>In-depth analysis and optimization of your business processes to enhance efficiency and performance.</p>
+                                            {/* <div className="btn-box">
                                                 <Link href="/financial-advices" className="theme-btn-one">Read More</Link>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -110,11 +112,11 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-15"></i></div>
-                                            <h3><Link href="/insurance-strategy">Insurance Strategy</Link></h3>
-                                            <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                            <div className="btn-box">
+                                            <h3><Link href="#">Innovative and Tailored Solutions</Link></h3>
+                                            <p>Customized SAP solutions that align with your specific business goals and leverage the latest industry advancements.</p>
+                                            {/* <div className="btn-box">
                                                 <Link href="/insurance-strategy" className="theme-btn-one">Read More</Link>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>

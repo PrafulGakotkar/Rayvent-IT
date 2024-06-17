@@ -30,7 +30,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us">
+            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="About Us">
                 {/* about-section */}
                 <section className="about-section p_relative">
                     <div className="auto-container">

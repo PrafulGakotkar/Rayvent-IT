@@ -22,7 +22,7 @@ export default function WhyChooseUs() {
         }
     }
     return (
-        <>            
+        <>
 
             {/* chooseus-style-two */}
             <section className="chooseus-style-two sec-pad">
@@ -33,7 +33,7 @@ export default function WhyChooseUs() {
                             <div className="content_block_six">
                                 <div className="content-box p_relative ml_30">
                                     <div className="sec-title mb_50">
-                                        <span className="sub-title">Why Choose BizTech</span>
+                                        <span className="sub-title">Why Choose Rayvent IT</span>
                                         <h2>Reason For Choosing Our Consultancy</h2>
                                     </div>
                                     <ul className="accordion-box">
@@ -41,31 +41,60 @@ export default function WhyChooseUs() {
                                         <li className="accordion block">
                                             <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
                                                 <div className="icon-box"></div>
-                                                <h3>Quick Response</h3>
+                                                <h3>Expertise:</h3>
                                             </div>
                                             <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
-                                                    </div>
+                                                    <div className="text">Our team consists of SAP-certified consultants with extensive industry experience.</div>
                                                 </div>
                                             </div>
                                         </li>
                                         {/*Accordion Block*/}
                                         <li className="accordion block">
-                                            <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}><div className="icon-box"></div><h3>Experience Consultant</h3></div>
+                                            <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}>
+                                                <div className="icon-box"></div><h3>Tailored Solutions: </h3></div>
                                             <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
-                                                    </div>
+                                                    <div className="text">We understand that every business is unique, and we provide customized solutions to meet your specific needs.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        {/*Accordion Block*/}
+                                        <li className="accordion block">
+                                            <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}><div className="icon-box"></div><h3>Proven Track Record:</h3></div>
+                                            <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
+                                                <div className="content">
+                                                    <div className="text">We have a history of successful SAP implementations, migrations, and optimizations.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        {/*Accordion Block*/}
+                                        <li className="accordion block">
+                                            <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(4)}><div className="icon-box"></div><h3>Customer-Centric Approach: </h3></div>
+                                            <div className={isActive.key == 4 ? "acc-content current" : "acc-content"}>
+                                                <div className="content">
+                                                    <div className="text">Our clients are at the heart of everything we do, and we strive to build long-lasting relationships based on trust and excellence.</div>
                                                 </div>
                                             </div>
                                         </li>
                                         {/*Accordion Block*/}
                                         <li className="accordion block">
-                                            <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}><div className="icon-box"></div><h3>Flexible Payment</h3></div>
-                                            <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
+                                            <div className={isActive.key == 5 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(5)}><div className="icon-box"></div><h3>Innovation:</h3></div>
+                                            <div className={isActive.key == 5 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
+                                                    <div className="text"> We stay at the forefront of SAP advancements and industry trends to provide cutting-edge solutions.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        {/*Accordion Block*/}
+                                        <li className="accordion block">
+                                            <div className={isActive.key == 6 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(6)}><div className="icon-box"></div><h3>Commitment to Quality: </h3></div>
+                                            <div className={isActive.key == 6 ? "acc-content current" : "acc-content"}>
+                                                <div className="content">
+                                                    <div className="text">Our rigorous quality assurance processes ensure that we deliver the highest standards of service.
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -77,7 +106,7 @@ export default function WhyChooseUs() {
                     </div>
                 </div>
             </section>
-            {/* chooseus-style-two end */} 
+            {/* chooseus-style-two end */}
 
         </>
     )
