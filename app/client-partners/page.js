@@ -11,7 +11,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Clients & Partners">
+            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Clients & Partners">
                 <div>
                     <section className="about-section p_relative">
                         <div className="auto-container">
