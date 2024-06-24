@@ -1,9 +1,3 @@
 {
-  "/not-found": "app/not-found.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/it-infra/page": "app/it-infra/page.js",
-  "/bigdata/page": "app/bigdata/page.js",
-  "/flex-support/page": "app/flex-support/page.js",
-  "/sap-mii/page": "app/sap-mii/page.js",
-  "/mobility/page": "app/mobility/page.js"
+  "/page": "app/page.js"
 }

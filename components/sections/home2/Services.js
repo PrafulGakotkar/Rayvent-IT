@@ -21,7 +21,7 @@ export default function Services() {
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                             <div className="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <figure className="image-box"><img src="assets/images/service/service-1.jpg" alt="" /></figure>
+                                    <figure className="image-box"><img src="assets/images/service/expertInSap.png" alt="" /></figure>
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-7"></i></div>
@@ -38,7 +38,7 @@ export default function Services() {
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                             <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <figure className="image-box"><img src="assets/images/service/service-2.jpg" alt="" /></figure>
+                                    <figure className="image-box"><img src="assets/images/service/sapMigration.png" alt="" /></figure>
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-12"></i></div>
@@ -56,7 +56,7 @@ export default function Services() {
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                             <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <figure className="image-box"><img src="assets/images/service/service-3.jpg" alt="" /></figure>
+                                    <figure className="image-box"><img src="assets/images/service/24by7.png" alt="" /></figure>
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-8"></i></div>
@@ -74,7 +74,7 @@ export default function Services() {
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                             <div className="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <figure className="image-box"><img src="assets/images/service/service-4.jpg" alt="" /></figure>
+                                    <figure className="image-box"><img src="assets/images/service/sapTraining.png" alt="" /></figure>
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-13"></i></div>
@@ -91,7 +91,7 @@ export default function Services() {
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                             <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <figure className="image-box"><img src="assets/images/service/service-5.jpg" alt="" /></figure>
+                                    <figure className="image-box"><img src="assets/images/service/businessProcess.png" alt="" /></figure>
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-14"></i></div>
@@ -108,7 +108,7 @@ export default function Services() {
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                             <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <figure className="image-box"><img src="assets/images/service/service-6.jpg" alt="" /></figure>
+                                    <figure className="image-box"><img src="assets/images/service/innovativeSol.png" alt="" /></figure>
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-15"></i></div>

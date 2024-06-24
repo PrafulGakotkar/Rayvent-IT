@@ -85,7 +85,7 @@ export default function Home() {
                                     <div className="service-details-content">
                                         <div className="content-one mb_90">
                                             <div className="image-box">
-                                                <img src="/assets/images/service/service-8.jpg" alt="" />
+                                                <img src="/assets/images/service/sap.png" alt="" />
                                             </div>
 
                                         </div>

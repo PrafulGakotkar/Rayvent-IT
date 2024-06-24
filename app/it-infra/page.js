@@ -59,7 +59,7 @@ export default function Home() {
                                                 <div
                                                     className="bg-layer"
                                                     style={{
-                                                        backgroundImage: 'url(assets/images/service/service-7.png)',
+                                                        backgroundImage: 'url(/assets/images/service/service-7.png)',
                                                     }}
                                                 ></div>
                                                 <h3>
@@ -85,7 +85,7 @@ export default function Home() {
                                     <div className="service-details-content">
                                         <div className="content-one mb_90">
                                             <div className="image-box">
-                                                <img src="/assets/images/service/service-8.jpg" alt="" />
+                                                <img src="/assets/images/service/it-infra.png" alt="" />
                                             </div>
 
                                         </div>
