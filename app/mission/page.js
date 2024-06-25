@@ -38,8 +38,8 @@ export default function Home() {
                             <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                 <div className="image_block_one">
                                     <div className="image-box p_relative pr_50 mr_30">
-                                        <figure className="image image-1"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
-                                        <figure className="image image-2"><img src="assets/images/resource/about-2.jpg" alt="" /></figure>
+                                        <figure className="image image-1"><img src="/assets/images/resource/about1.png" alt="" /></figure>
+                                        <figure className="image image-2"><img src="/assets/images/resource/about2.png" alt="" /></figure>
                                         {/* <div className="video-inner">
                                     <div className="video-btn">
                                         <VideoPopup />
@@ -82,7 +82,7 @@ export default function Home() {
                                                 "Deliver innovative software solutions and services, on time with quality, and as per customer expectations". RAYVEN IT resources attained vast experience in providing software services and solutions to its clients across the globe which reflects our versatility in servicing customer requirements.We strive to serve our clients better on every project and are always climbing one step on the ladder of customer service by delivering more than their expectation. Customer Delight is our true achievement; and this we achieve through our high quality services.We aim at delivering superior quality projects by imbibing these parameters in house through:</p>
                                         </div>
 
-                                        <ul className="list-style-one clearfix">
+                                        <ul className="list-style-one clearfix" style={{color: "rgba(255, 255, 255, 0.7)"}}>
                                         <li>Improvement of process</li>
                                         <li>High team spirit</li>
                                         <li>Smart working culture rather than over working.</li>
@@ -99,8 +99,8 @@ export default function Home() {
                             <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                 <div className="image_block_one">
                                     <div className="image-box p_relative pr_50 mr_30">
-                                        <figure className="image image-1"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
-                                        {/* <figure className="image image-2"><img src="assets/images/resource/about-2.jpg" alt="" /></figure> */}
+                                        <figure className="image image-1"><img src="/assets/images/resource/quality.png" alt="" /></figure>
+                                        {/* <figure className="image image-2"><img src="/assets/images/resource/quality.png" alt="" /></figure> */}
                                         {/* <div className="video-inner">
                                     <div className="video-btn">
                                         <VideoPopup />

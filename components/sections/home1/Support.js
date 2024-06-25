@@ -115,7 +115,7 @@ export default function Support() {
                         <div className="col-lg-4 col-md-12 col-sm-12 image-column">
                             <div className="image_block_one">
                                 <div className="image-box p_relative pr_50 mr_30" style={{ padding: 0 }}>
-                                    <figure className="image image-1"><img src="assets/images/resource/application_development.jpg" alt="" /></figure>
+                                    <figure className="image image-1"><img src="assets/images/resource/application_development.png" alt="" /></figure>
 
                                 </div>
                             </div>

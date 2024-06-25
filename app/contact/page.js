@@ -15,7 +15,7 @@ export default function Home() {
             <div>
                 {/* Feature Section */}
                 <section className="feature-style-three p_relative centred">
-                    <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-31.png)' }}></div>
+                    <div className="pattern-layer" style={{ backgroundImage: 'url(/assets/images/shape/shape-31.png)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_100">
                             <span className="sub-title">Contact Info</span>
@@ -25,7 +25,7 @@ export default function Home() {
                             <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                                 <div className="feature-block-three wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <div className="block-shape" style={{ backgroundImage: 'url(assets/images/shape/shape-32.png)' }}></div>
+                                        <div className="block-shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-32.png)' }}></div>
                                         <div className="icon-box"><i className="icon-48"></i></div>
                                         <h3>USA</h3>
                                         <p>345 PLAINFIELD AVE, SUITE # 303 <br />
@@ -52,7 +52,7 @@ export default function Home() {
                             <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                                 <div className="feature-block-three wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <div className="block-shape" style={{ backgroundImage: 'url(assets/images/shape/shape-33.png)' }}></div>
+                                        <div className="block-shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-33.png)' }}></div>
                                         <div className="icon-box"><i className="icon-48"></i></div>
                                         {/* <div className="icon-box"><i className="icon-50"></i></div> */}
                                         <h3>CANADA</h3>
