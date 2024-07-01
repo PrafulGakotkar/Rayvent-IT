@@ -51,12 +51,15 @@ export default function Footer1() {
                                             <li><Link href="/application-development">Application Development</Link></li>
                                             <li><Link href="/outsourcing-manages-services">Outsoursing and Managed Services</Link></li>
                                             <li><Link href="/strategic-consulting">Strategic Consulting</Link></li>
-                                            <li><Link href="/flex-support">Flex Support</Link></li>
+
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div className="links-widget footer-widget ml_50 mt_20">
+                                    <div className="widget-title">
+                                        <h3 className="links-list"><li><Link href="/flex-support">Flex Support</Link></li></h3>
+                                    </div>
                                     <div className="widget-title">
                                         <h3>Security,Risk and Compliance</h3>
                                     </div>

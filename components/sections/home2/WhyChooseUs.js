@@ -26,7 +26,7 @@ export default function WhyChooseUs() {
 
             {/* chooseus-style-two */}
             <section className="chooseus-style-two sec-pad">
-                <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(assets/images/background/whyChoose.png)' }}></div>
+                <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(/assets/images/background/whyChoose.png)' }}></div>
                 <div className="auto-container">
                     <div className="row clearfix">
                         <div className="col-xl-6 col-lg-12 offset-xl-6 content-column">

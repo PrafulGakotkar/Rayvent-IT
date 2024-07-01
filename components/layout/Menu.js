@@ -29,10 +29,10 @@ export default function Menu() {
                                 <li><Link href="/data-science">Data Science and Analytics Consulting</Link></li>
                                 <li><Link href="/outsourcing-manages-services">Outsoursing and Managed Services</Link></li>
                                 <li><Link href="/strategic-consulting">Strategic Consulting</Link></li>
-                                <li><Link href="/flex-support">Flex Support</Link></li>
+                                
                             </ul>
                         </li>
-                        <li className="dropdown"><Link href="#">Security,Risk and Compliance</Link>
+                         <li className="dropdown"><Link href="#">Security,Risk and Compliance</Link>
                             <ul>
                                 <li><Link href="/sap-grc">SAP GRC </Link></li>
                                
@@ -49,6 +49,8 @@ export default function Menu() {
                                 <li><Link href="/sap-mii">SAP MII</Link></li>
                             </ul>
                         </li>
+                        <li className=""><Link href="/flex-support">Flex Support</Link></li>
+
 
                         {/* <li><Link href="/services2">Our Services 2</Link></li>
                         <li><Link href="/outsourcing-manages-services">Tax Management</Link></li>
@@ -59,7 +61,7 @@ export default function Menu() {
                         <li><Link href="/insurance-strategy">Insurance Strategy</Link></li> */}
                     </ul>
                 </li>
-                <li ><Link href="/flex-support">FLEX Support</Link>
+                {/* <li ><Link href="/flex-support">FLEX Support</Link> */}
                     {/* <ul>
                         <li className="dropdown"><Link href="#">Team</Link>
                             <ul>
@@ -75,7 +77,7 @@ export default function Menu() {
                         <li><Link href="/testimonials">Testimonials</Link></li>
                         <li><Link href="/404">404</Link></li>
                     </ul> */}
-                </li>
+                {/* </li> */}
                 <li ><Link href="/career">Careers</Link>
                     {/* <ul>
                         <li><Link href="/shop">Products</Link></li>
