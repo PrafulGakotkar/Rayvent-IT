@@ -21,15 +21,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/flex-support/page": [
+    "/career/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/flex-support/page.js"
+      "static/chunks/app/career/page.js"
     ],
-    "/mission/page": [
+    "/sap-hana/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/mission/page.js"
+      "static/chunks/app/sap-hana/page.js"
     ]
   }
 }
