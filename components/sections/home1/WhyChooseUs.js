@@ -67,10 +67,10 @@ export default function WhyChooseUs() {
                                             <h3>OUR CULTURE</h3>
                                             <p>We believe in having a culture that binds our communities, organizations, groups, and families together. A healthy culture allows a group to survive and benefit from the 'perpetual winds of change'.</p>
                                             <ul className="list-style-one clearfix ">
-                                                <li style={{ color: "rgba(255, 255, 255, 0.7);" }}>We put our customer first</li>
-                                                <li style={{ color: "rgba(255, 255, 255, 0.7);" }}>We believe that every problem has an innovative solution</li>
-                                                <li style={{ color: "rgba(255, 255, 255, 0.7);" }}>We're passionate about learning. That's how we keep our finger on the pulse!</li>
-                                                <li style={{ color: "rgba(255, 255, 255, 0.7);" }}>We believe in open communication, where opinions are respected and knowledge is shared</li>
+                                                <li style={{ color: "rgba(255, 255, 255, 0.7)!important" }}>We put our customer first</li>
+                                                <li style={{ color: "rgba(255, 255, 255, 0.7)!important" }}>We believe that every problem has an innovative solution</li>
+                                                <li style={{ color: "rgba(255, 255, 255, 0.7)!important" }}>We're passionate about learning. That's how we keep our finger on the pulse!</li>
+                                                <li style={{ color: "rgba(255, 255, 255, 0.7)!important" }}>We believe in open communication, where opinions are respected and knowledge is shared</li>
 
                                             </ul>
                                         </div>
