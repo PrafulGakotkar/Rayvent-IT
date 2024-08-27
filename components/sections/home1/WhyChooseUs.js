@@ -72,7 +72,7 @@ export default function WhyChooseUs() {
                                                 <li style={{ color: "rgba(255, 255, 255, 0.7);" }}>We're passionate about learning. That's how we keep our finger on the pulse!</li>
                                                 <li style={{ color: "rgba(255, 255, 255, 0.7);" }}>We believe in open communication, where opinions are respected and knowledge is shared</li>
 
-                                            </ul> */}
+                                            </ul> 
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
