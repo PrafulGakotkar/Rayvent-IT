@@ -26,7 +26,7 @@ export default function Services() {
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-7"></i></div>
                                             <h3><Link href="#">Consulting Services</Link></h3>
-                                            <p style={{textAlign:"justify"}}>Expert SAP consultation on business strategy and process optimization for businesses at any stage</p><br/>
+                                            <p style={{textAlign:"justify"}}>Expert SAP consultation on business strategy and process optimization for businesses at any stage<br/></p><br/><br/>
                                             {/* <div className="btn-box">
                                                 <Link href="/strategy-planning" className="theme-btn-one">Read More</Link>
                                             </div> */}
@@ -60,7 +60,7 @@ export default function Services() {
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-8"></i></div>
                                             <h3><Link href="#">Support and Maintenance</Link></h3>
-                                            <p style={{textAlign:"justify"}}>Ongoing SAP Application Management Services (AMS), Basis & Security, and quality assurance services</p><br/><br/>    
+                                            <p style={{textAlign:"justify"}}>Ongoing SAP Application Management Services (AMS), Basis & Security, and quality assurance services</p><br/>    
                                             {/* <div className="btn-box">
                                                 <Link href="/tax-management" className="theme-btn-one">Read More</Link>
                                             </div> */}
@@ -111,7 +111,7 @@ export default function Services() {
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-15"></i></div>
                                             <h3><Link href="#">24x7 Support</Link></h3>
-                                            <p style={{textAlign:"justify"}}>Offering an innovative cost effective model with round-the-clock support <br/></p><br/>  
+                                            <p style={{textAlign:"justify"}}>Offering an innovative cost effective model with round-the-clock support <br/> <br/></p><br/>  
                                             {/* <div className="btn-box">
                                                 <Link href="/insurance-strategy" className="theme-btn-one">Read More</Link>
                                             </div> */}
