@@ -33,8 +33,8 @@ export default function WhyChooseUs() {
                             <div className="content_block_six">
                                 <div className="content-box p_relative ml_30">
                                     <div className="sec-title mb_50">
-                                        <span className="sub-title">Why Choose Rayvent IT</span>
-                                        <h2>Reason For Choosing Our Consultancy</h2>
+                                        <span className="sub-title" style={{color:"#000000"}}>Why Choose Rayven IT</span>
+                                        <h2>Reasons For Choosing Our Consultancy</h2>
                                     </div>
                                     <ul className="accordion-box">
                                         {/*Accordion Block*/}

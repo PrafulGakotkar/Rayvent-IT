@@ -12,16 +12,16 @@ export default function Support() {
                                 <div className="content-box p_relative ml_30 mb_30">
                                     <div className="sec-title mb_25">
                                         {/* <span className="sub-title">About BizTech</span> */}
-                                        <h2>RAYVENT'S Managed Services</h2>
+                                        <h2>Managed Services</h2>
                                     </div>
                                     <div className="text mb_35">
                                         <ul className="list-style-one clearfix">
                                             <li>New Implementations</li>
-                                            <li>Migrating from Legacy Enterprise Systems</li>
-                                            <li>Consolidating Distributed Systems</li>
-                                            <li>Implementing Incremental SAP modules to an Existing SAP Enterprise System</li>
+                                            <li>Legacy Enterprise System Migrations</li>
+                                            <li>Distributed System Consolidation</li>
+                                            <li>Incremental SAP Module Integration</li>
                                             <li>Application Customization Services </li>
-                                            <li>Application Maintenance Services </li>
+                                            <li>Application Maintenance Services</li>
 
                                         </ul>
                                     </div>
@@ -59,16 +59,16 @@ export default function Support() {
                                 <div className="content-box p_relative ml_30 mb_30">
                                     <div className="sec-title mb_25">
                                         {/* <span className="sub-title">About BizTech</span> */}
-                                        <h2>RAYVEN IT's FLEX Support</h2>
+                                        <h2>FLEX Support</h2>
                                     </div>
                                     <div className="text mb_35">
                                         <ul className="list-style-one clearfix">
-                                            <li>Pay per Actual Use</li>
-                                            <li>Up &amp; Running almost immediately</li>
-                                            <li>Flex pricing model will exactly reflects the business demands</li>
-                                            <li>Bare minimum base cost and there after cost is only based on consumption</li>
-                                            <li>Availability of High Quality Resource Pool</li>
-                                            <li>Dedicated Flex Support Resource Pool for the quick turnaround</li>
+                                            <li>Pay-As-You-Go Pricing</li>
+                                            <li>Rapid Deployment, Up and Running Almost Immediately</li>
+                                            <li>FLEX Pricing Model that Aligns with Business Demands</li>
+                                            <li>Minimal Base Cost with Additional Charges Based on Actual Consumption</li>
+                                            <li>Access to a High-Quality Resource Pool</li>
+                                            <li>Dedicated FLEX Support Pool for Quick Turnaround</li>
 
                                         </ul>
                                         {/* <p>By transitioning to SuccessFactors, you have invested in a future for your human capital management and talent management systems that are more ambitious than just technology. As an authorized reseller, RAYVEN IT is your source for all things SuccessFactors. We have the ability to renew your current SuccessFactors Contract as well as provide you with the option to expand your suite with additional modules. These are the real goals and drivers we champion as your implementation partner.</p> */}
@@ -86,6 +86,10 @@ export default function Support() {
             <section className="about-section p_relative">
                 <div className="auto-container">
                     <div className="row clearfix">
+                        <div className="sec-title mb_25">
+                            {/* <span className="sub-title">About BizTech</span> */}
+                            <h2>Application Development</h2>
+                        </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 content-column">
                             <div className="content_block_one">
                                 <div className="content-box p_relative ml_30 mb_30">
@@ -95,15 +99,15 @@ export default function Support() {
                                     </div>
                                     <div className="text mb_35">
                                         <ul className="list-style-one clearfix">
-                                            <li>Enterprise application development</li>
-                                            <li>Application Integrations</li>
-                                            <li>Mobile application development</li>
-                                            <li>Rapid business prototyping</li>
-                                            <li>Web Application development</li>
-                                            <li>Product training, consulting,
-                                                support and customization</li>
+                                            <li>Enterprise Application Development</li>
+                                            <li>Application Integration</li>
+                                            <li>Mobile Application Development</li>
+                                            <li>Rapid Business Prototyping</li>
+                                            <li>Web Application Development</li>
+                                            <li>Product Training, Consulting, Support, and Customization</li>
 
                                         </ul>
+
                                         {/* <p>By transitioning to SuccessFactors, you have invested in a future for your human capital management and talent management systems that are more ambitious than just technology. As an authorized reseller, RAYVEN IT is your source for all things SuccessFactors. We have the ability to renew your current SuccessFactors Contract as well as provide you with the option to expand your suite with additional modules. These are the real goals and drivers we champion as your implementation partner.</p> */}
                                     </div>
                                     {/* <Link href="/application-development" className="theme-btn-one">Read More</Link> */}
@@ -121,8 +125,8 @@ export default function Support() {
                             </div>
                             <div className="content-box p_relative ml_30 mt_30">
 
-                            <Link href="/application-development" className="theme-btn-one">Read More</Link>
-                        </div>
+                                <Link href="/application-development" className="theme-btn-one">Read More</Link>
+                            </div>
                         </div>
 
                         <div className="col-lg-4 col-md-12 col-sm-12 content-column">
@@ -130,18 +134,25 @@ export default function Support() {
                                 <div className="content-box p_relative ml_30 mb_30">
                                     <div className="sec-title mb_25">
                                         {/* <span className="sub-title">About BizTech</span> */}
-                                        <h3>Cooperative Development</h3>
+                                        <h3>Illustrative non-SAP services</h3>
                                     </div>
                                     <div className="text mb_35">
                                         <ul className="list-style-one clearfix">
-                                            <li>SAP</li>
-                                            <li>Java/J2EE</li>
-                                            <li>Microsoft .NET</li>
-                                            <li>SOA</li>
-                                            <li>Messaging and integration</li>
-                                            <li>Oracle</li>
+                                            <li>Talend</li>
                                             <li>Hadoop</li>
-                                            <li>Neo4j</li>
+                                            <li>Big Data</li>
+                                            <li>Cassandra</li>
+                                            <li>Sitecore</li>
+                                            <li>Neo4J</li>
+                                            <li>Web Services</li>
+                                            <li>Mobile Solutions</li>
+                                            <li>Cloud Services</li>
+                                            <li>Java & J2EE</li>
+                                            <li>Spring Framework</li>
+                                            <li>Hibernate</li>
+                                            <li>Microsoft Technologies</li>
+                                            <li>Oracle</li>
+                                            <li>MySQL</li>
 
                                         </ul>
                                         {/* <p>By transitioning to SuccessFactors, you have invested in a future for your human capital management and talent management systems that are more ambitious than just technology. As an authorized reseller, RAYVEN IT is your source for all things SuccessFactors. We have the ability to renew your current SuccessFactors Contract as well as provide you with the option to expand your suite with additional modules. These are the real goals and drivers we champion as your implementation partner.</p> */}
@@ -151,8 +162,8 @@ export default function Support() {
 
                             </div>
                         </div>
-                        
-                        
+
+
 
                     </div>
                 </div>

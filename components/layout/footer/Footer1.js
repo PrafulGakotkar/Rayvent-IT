@@ -49,7 +49,7 @@ export default function Footer1() {
                                     <div className="widget-content">
                                         <ul className="links-list clearfix">
                                             <li><Link href="/application-development">Application Development</Link></li>
-                                            <li><Link href="/outsourcing-manages-services">Outsoursing and Managed Services</Link></li>
+                                            <li><Link href="/outsourcing-manages-services">Outsourcing and Managed Services</Link></li>
                                             <li><Link href="/strategic-consulting">Strategic Consulting</Link></li>
 
                                         </ul>

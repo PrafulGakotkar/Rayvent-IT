@@ -19,7 +19,7 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title mb_100">
                             <span className="sub-title">Contact Info</span>
-                            <h2>We’d Love To Help You</h2>
+                            <h2>We’re committed to helping you</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
@@ -78,12 +78,9 @@ export default function Home() {
                             <div className="col-lg-4 col-md-12 col-sm-12 content-column">
                                 <div className="content-box mr_70">
                                     <div className="sec-title mb_35">
-                                        <span className="sub-title">Message</span>
-                                        <h2>Feel Free to Contact with us</h2>
-                                        <p className="mt_20">Please use the contact form below to send
-                                            us any information we may need. It is required you place an
-                                            e-mail, although if you do not need us to respond feel free to
-                                            input info@rayvenit.solutions
+                                        {/* <span className="sub-title">Message</span> */}
+                                        <h2>Feel Free to Contact Us</h2>
+                                        <p className="mt_20">Please use this contact form to provide any necessary information.
                                         </p>
                                     </div>
                                     <ul className="social-links clearfix">

@@ -35,17 +35,17 @@ export default function WhyChooseUs() {
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>CUSTOMER FOCUS:</h3>
+                                            <h3>CUSTOMER FOCUS</h3>
                                             <p>We are a customer-centered organization. We value our customers and our relationship with them.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>OUR PEOPLE:</h3>
+                                            <h3>OUR PEOPLE</h3>
                                             <p>We value our people by developing and recognizing outstanding people, caring for them and their families.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>PEOPLE ORIENTATION:</h3>
+                                            <h3>PEOPLE ORIENTATION</h3>
                                             <p>RAYVEN IT believes in 'RAYVENians' - just as 'RAYVENians' believe in RAYVEN IT. We will accord respect and dignity to every employee. We will aim to attract, develop and retain the best talent, and create an enabling environment where every committed and capable member of the organization has ample opportunities for growth.</p>
                                         </div>
                                     </div>
@@ -76,27 +76,27 @@ export default function WhyChooseUs() {
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>TEAM WORK:</h3>
+                                            <h3>TEAM WORK</h3>
                                             <p>We treat one another with respect - creating value by working together.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>INTEGRITY:</h3>
+                                            <h3>INTEGRITY</h3>
                                             <p>We treat our customers, team members and suppliers in a fair and honest manner as we would want to be treated.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>INNOVATION AND CREATIVITY:</h3>
+                                            <h3>INNOVATION AND CREATIVITY</h3>
                                             <p>We thrive on innovation and originality and encourage fresh ideas.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>AGILITY:</h3>
+                                            <h3>AGILITY</h3>
                                             <p>We move quickly, embracing change and seizing opportunities to improve the quality of delivery.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>SOCIAL RESPONSIBILITY:</h3>
+                                            <h3>SOCIAL RESPONSIBILITY</h3>
                                             <p>We shall conduct ourselves in a socially responsible manner. We will bear in mind that decisions that are bad for the society, cannot be good for business. Moreover, we will add value to the social environment, and proactively embrace our responsibilities as a good corporate citizen in every country we operate.</p>
                                         </div>
                                     </div>

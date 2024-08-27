@@ -1,4 +1,4 @@
-// File: F:\Project\Working Project\Rayvent IT\Rayvent IT\app\layout.js
+// File: D:\Project\Working Projects\Rayvent IT\Rayvent IT\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

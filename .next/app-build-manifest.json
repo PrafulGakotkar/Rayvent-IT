@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/page": [
+    "/mission/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/mission/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -21,15 +21,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/career/page": [
+    "/flex-support/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/career/page.js"
-    ],
-    "/sap-hana/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/sap-hana/page.js"
+      "static/chunks/app/flex-support/page.js"
     ]
   }
 }

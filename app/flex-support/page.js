@@ -83,7 +83,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                                     <div className="service-details-content">
-                                        
+
                                         <div className="content-one mb_90">
                                             <figure className="image-box">
                                                 <img src="/assets/images/service/flex-support.png" alt="" />
@@ -97,12 +97,12 @@ export default function Home() {
 
                                                 <h3>Highlights</h3>
                                                 <ul className="list-style-one clearfix">
-                                                    <li>Pay per Actual Use.</li>
-                                                    <li>Up & Running almost immediately.</li>
-                                                    <li>FLEX pricing model will exactly reflects the business demands.</li>
-                                                    <li>Bare minimum base cost and there after cost is only based on consumption.</li>
-                                                    <li>Availability of High Quality Resource Pool</li>
-                                                    <li>Dedicated FLEX Support Resource Pool for the quick turn around.</li>
+                                                    <li>Pay-As-You-Go Pricing.</li>
+                                                    <li>Rapid Deployment, Up and Running Almost Immediately.</li>
+                                                    <li>FLEX Pricing Model that Aligns with Business Demands.</li>
+                                                    <li>Minimal Base Cost with Additional Charges Based on Actual Consumption.</li>
+                                                    <li>Access to a High-Quality Resource Pool.</li>
+                                                    <li>Dedicated FLEX Support Pool for Quick Turnaround</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -114,13 +114,14 @@ export default function Home() {
                                                         <h3>FLEX Support Advantages</h3>
 
                                                         <ul className="list-style-one clearfix">
-                                                            <li>FLEX offsite resources are highly experienced.</li>
-                                                            <li>Support & Future Development runs seamless under their guidance</li>
-                                                            <li>Periodic system health check with recommendations</li>
-                                                            <li>Best possible solutions can be given with little time</li>
-                                                            <li>Turn around time for tickets will be very quick intern helps improve System uptime and reduces</li>
-                                                            <li>24x7 support will be provided with the combination of FLEX Primaries/Offshore resources</li>
+                                                            <li>FLEX offsite resources bring extensive experience.</li>
+                                                            <li>Support and future development run seamlessly under their guidance.</li>
+                                                            <li>Regular system health checks with actionable recommendations.</li>
+                                                            <li>Optimal solutions delivered promptly.</li>
+                                                            <li>Rapid ticket turnaround improves system uptime and reduces downtime.</li>
+                                                            <li>24/7 support provided by a combination of FLEX primary and offshore resources.</li>
                                                         </ul>
+
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">

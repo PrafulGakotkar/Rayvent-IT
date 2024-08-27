@@ -15,7 +15,7 @@ export default function Services() {
                 <div className="auto-container">
                     <div className="sec-title centred mb_50">
                         <span className="sub-title">What We Do</span>
-                        <h2>Provide the Best Consulting <br />in SAP Industry</h2>
+                        <h3>Provide expert consulting, implementation, support, and staffing services, specializing in SAP and technology solutions to enhance business performance and customer satisfaction</h3>
                     </div>
                     <div className="row clearfix">
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
@@ -25,8 +25,8 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-7"></i></div>
-                                            <h3><Link href="#">Expert SAP Implementation</Link></h3>
-                                            <p>Seamless SAP implementation tailored to your business needs, ensuring a smooth transition and minimal disruption.</p>
+                                            <h3><Link href="#">Consulting Services</Link></h3>
+                                            <p style={{textAlign:"justify"}}>Expert SAP consultation on business strategy and process optimization for businesses at any stage</p><br/>
                                             {/* <div className="btn-box">
                                                 <Link href="/strategy-planning" className="theme-btn-one">Read More</Link>
                                             </div> */}
@@ -42,9 +42,8 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-12"></i></div>
-                                            <h3><Link href="#">Efficient SAP S/4HANA Migration</Link></h3>
-                                            <p>Comprehensive migration services to SAP S/4HANA, including detailed assessments, planning, and execution.
-                                            </p>
+                                            <h3><Link href="#">Implementation Services</Link></h3>
+                                            <p style={{textAlign:"justify"}}>Tailored SAP implementation and migration solutions across regions, specializing in emerging technologies, mobile solutions, e-commerce, and more.</p>
                                             {/* <div className="btn-box">
                                                 <Link href="/program-manager" className="theme-btn-one">Read More</Link>
                                             </div> */}
@@ -60,9 +59,8 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-8"></i></div>
-                                            <h3><Link href="#">24/7 Support and Maintenance</Link></h3>
-                                            <p>Round-the-clock support and proactive maintenance to keep your SAP systems running efficiently and securely.
-                                            </p>
+                                            <h3><Link href="#">Support and Maintenance</Link></h3>
+                                            <p style={{textAlign:"justify"}}>Ongoing SAP Application Management Services (AMS), Basis & Security, and quality assurance services</p>
                                             {/* <div className="btn-box">
                                                 <Link href="/tax-management" className="theme-btn-one">Read More</Link>
                                             </div> */}
@@ -78,8 +76,8 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-13"></i></div>
-                                            <h3><Link href="#">Custom SAP Training Programs</Link></h3>
-                                            <p>Tailored training sessions and workshops to empower your team with the knowledge and skills they need to succeed.</p>
+                                            <h3><Link href="#">Staff Augmentation</Link></h3>
+                                            <p style={{textAlign:"justify"}}>Supplying experienced professionals and consultants with specialized skills to enhance productivity and deliver successful projects </p><br/>
                                             {/* <div className="btn-box">
                                                 <Link href="/investment-policy" className="theme-btn-one">Read More</Link>
                                             </div> */}
@@ -95,8 +93,8 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-14"></i></div>
-                                            <h3><Link href="#">Business Process Optimization</Link></h3>
-                                            <p>In-depth analysis and optimization of your business processes to enhance efficiency and performance.</p>
+                                            <h3><Link href="#">Innovative Solutions</Link></h3>
+                                            <p style={{textAlign:"justify"}}>Delivering innovative SAP solutions, including SAP NetWeaver, Data Services, BI/BW, CRM, SCM, SuccessFactors, and other non-SAP technologies </p>
                                             {/* <div className="btn-box">
                                                 <Link href="/financial-advices" className="theme-btn-one">Read More</Link>
                                             </div> */}
@@ -112,8 +110,8 @@ export default function Services() {
                                     <div className="lower-content">
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-15"></i></div>
-                                            <h3><Link href="#">Innovative and Tailored Solutions</Link></h3>
-                                            <p>Customized SAP solutions that align with your specific business goals and leverage the latest industry advancements.</p>
+                                            <h3><Link href="#">24x7 Support</Link></h3>
+                                            <p style={{textAlign:"justify"}}>Offering an innovative cost effective model with round-the-clock support</p><br/>  <br/><br/>
                                             {/* <div className="btn-box">
                                                 <Link href="/insurance-strategy" className="theme-btn-one">Read More</Link>
                                             </div> */}
