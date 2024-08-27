@@ -26,7 +26,7 @@ export default function Services() {
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-7"></i></div>
                                             <h3><Link href="#">Consulting Services</Link></h3>
-                                            <p style={{textAlign:"justify"}}>Expert SAP consultation on business strategy and process optimization for businesses at any stage</p><br/><br/>
+                                            <p style={{textAlign:"justify"}}>Expert SAP consultation on business strategy and process optimization for businesses at any stage<br/></p><br/><br/>
                                             {/* <div className="btn-box">
                                                 <Link href="/strategy-planning" className="theme-btn-one">Read More</Link>
                                             </div> */}
