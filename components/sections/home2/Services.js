@@ -111,7 +111,7 @@ export default function Services() {
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-15"></i></div>
                                             <h3><Link href="#">24x7 Support</Link></h3>
-                                            <p style={{textAlign:"justify"}}>Offering an innovative cost effective model with round-the-clock support <br/> <br/></p><br/>  
+                                            <p style={{textAlign:"justify"}}>Offering an innovative cost effective model with round-the-clock support <br/></p><br/>  
                                             {/* <div className="btn-box">
                                                 <Link href="/insurance-strategy" className="theme-btn-one">Read More</Link>
                                             </div> */}
