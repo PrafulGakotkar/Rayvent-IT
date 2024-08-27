@@ -60,7 +60,7 @@ export default function Services() {
                                         <div className="inner">
                                             <div className="icon-box"><i className="icon-8"></i></div>
                                             <h3><Link href="#">Support and Maintenance</Link></h3>
-                                            <p style={{textAlign:"justify"}}>Ongoing SAP Application Management Services (AMS), Basis & Security, and quality assurance services</p>
+                                            <p style={{textAlign:"justify"}}>Ongoing SAP Application Management Services (AMS), Basis & Security, and quality assurance services</p><br/>
                                             {/* <div className="btn-box">
                                                 <Link href="/tax-management" className="theme-btn-one">Read More</Link>
                                             </div> */}
