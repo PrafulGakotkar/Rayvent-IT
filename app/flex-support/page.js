@@ -23,7 +23,7 @@ export default function Home() {
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/outsourcing-manages-services" >Outstanding & Managed Services</Link>
+                                                    <Link href="/outsourcing-manages-services" >Outsourcing and Managed Services </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/strategic-consulting" >Strategic Consulting</Link>
@@ -59,7 +59,7 @@ export default function Home() {
                                                 <div
                                                     className="bg-layer"
                                                     style={{
-                                                        backgroundImage: 'url(/assets/images/service/service-7.png)',
+                                                        backgroundImage: 'url(/assets/images/service/service-7png)',
                                                     }}
                                                 ></div>
                                                 <h3>
@@ -71,7 +71,7 @@ export default function Home() {
                                                 </div>
                                                 <div className="inner-box">
                                                     <p>
-                                                        <Link href="mailto:info@rayvenit.solutions">info@rayvenit.solutions</Link>
+                                                        <Link href="mailto:info@rayvenitsolutions">info@rayvenitsolutions</Link>
                                                     </p>
                                                     <h3>
                                                         <Link href="tel:(848)-459-5944">(848)-459-5944</Link>
@@ -86,7 +86,7 @@ export default function Home() {
 
                                         <div className="content-one mb_90">
                                             <figure className="image-box">
-                                                <img src="/assets/images/service/flex-support.png" alt="" />
+                                                <img src="/assets/images/service/flex-supportpng" alt="" />
                                             </figure>
                                             <div className="text">
                                                 <h2>RAYVEN IT's FLEX Support
@@ -97,11 +97,11 @@ export default function Home() {
 
                                                 <h3>Highlights</h3>
                                                 <ul className="list-style-one clearfix">
-                                                    <li>Pay-As-You-Go Pricing.</li>
-                                                    <li>Rapid Deployment, Up and Running Almost Immediately.</li>
-                                                    <li>FLEX Pricing Model that Aligns with Business Demands.</li>
-                                                    <li>Minimal Base Cost with Additional Charges Based on Actual Consumption.</li>
-                                                    <li>Access to a High-Quality Resource Pool.</li>
+                                                    <li>Pay-As-You-Go Pricing</li>
+                                                    <li>Rapid Deployment, Up and Running Almost Immediately</li>
+                                                    <li>FLEX Pricing Model that Aligns with Business Demands</li>
+                                                    <li>Minimal Base Cost with Additional Charges Based on Actual Consumption</li>
+                                                    <li>Access to a High-Quality Resource Pool</li>
                                                     <li>Dedicated FLEX Support Pool for Quick Turnaround</li>
                                                 </ul>
                                             </div>
@@ -114,19 +114,19 @@ export default function Home() {
                                                         <h3>FLEX Support Advantages</h3>
 
                                                         <ul className="list-style-one clearfix">
-                                                            <li>FLEX offsite resources bring extensive experience.</li>
-                                                            <li>Support and future development run seamlessly under their guidance.</li>
-                                                            <li>Regular system health checks with actionable recommendations.</li>
-                                                            <li>Optimal solutions delivered promptly.</li>
-                                                            <li>Rapid ticket turnaround improves system uptime and reduces downtime.</li>
-                                                            <li>24/7 support provided by a combination of FLEX primary and offshore resources.</li>
+                                                            <li>FLEX offsite resources bring extensive experience</li>
+                                                            <li>Support and future development run seamlessly under their guidance</li>
+                                                            <li>Regular system health checks with actionable recommendations</li>
+                                                            <li>Optimal solutions delivered promptly</li>
+                                                            <li>Rapid ticket turnaround improves system uptime and reduces downtime</li>
+                                                            <li>24/7 support provided by a combination of FLEX primary and offshore resources</li>
                                                         </ul>
 
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                                     <figure className="image-box">
-                                                        <img src="/assets/images/service/flex-support-advantages.png" alt="" />
+                                                        <img src="/assets/images/service/flex-support-advantagespng" alt="" />
                                                     </figure>
                                                 </div>
                                             </div>
@@ -135,10 +135,10 @@ export default function Home() {
                                             <div className="text mb_100">
                                                 <h3>Our Solutions</h3>
                                                 <p>
-                                                    Enim justo, in mauris posuere dolor. Dolor felis sapien sit egestas. Ut
-                                                    venenatis faucibus non sed faucibus mauris ultricies. Cras varius proin
-                                                    amet vehicula magna. Ultricies gravida vel volutpat sed. Platea sed fames
-                                                    at egestas amet feugiat laoreet sed potenti integer.
+                                                    Enim justo, in mauris posuere dolor Dolor felis sapien sit egestas Ut
+                                                    venenatis faucibus non sed faucibus mauris ultricies Cras varius proin
+                                                    amet vehicula magna Ultricies gravida vel volutpat sed Platea sed fames
+                                                    at egestas amet feugiat laoreet sed potenti integer
                                                 </p>
                                             </div>
                                             <div className="row clearfix">
@@ -148,7 +148,7 @@ export default function Home() {
                                                             <i className="icon-8"></i>
                                                         </div>
                                                         <h3>Tax Strategy</h3>
-                                                        <p>Cras varius proin amet vehicula magna tricies gravida vel volutpat.</p>
+                                                        <p>Cras varius proin amet vehicula magna tricies gravida vel volutpat</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 single-column">
@@ -157,16 +157,16 @@ export default function Home() {
                                                             <i className="icon-13"></i>
                                                         </div>
                                                         <h3>Investment Policy</h3>
-                                                        <p>Cras varius proin amet vehicula magna tricies gravida vel volutpat.</p>
+                                                        <p>Cras varius proin amet vehicula magna tricies gravida vel volutpat</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="text mt_50">
                                                 <p>
-                                                    Enim justo, in mauris posuere dolor. Dolor felis sapien sit egestas. Ut
-                                                    venenatis faucibus non sed faucibus mauris ultricies. Cras varius proin
-                                                    amet vehicula magna. Ultricies gravida vel volutpat sed. Platea sed fames
-                                                    at egestas amet feugiat laoreet sed potenti integer.
+                                                    Enim justo, in mauris posuere dolor Dolor felis sapien sit egestas Ut
+                                                    venenatis faucibus non sed faucibus mauris ultricies Cras varius proin
+                                                    amet vehicula magna Ultricies gravida vel volutpat sed Platea sed fames
+                                                    at egestas amet feugiat laoreet sed potenti integer
                                                 </p>
                                             </div>
                                         </div>

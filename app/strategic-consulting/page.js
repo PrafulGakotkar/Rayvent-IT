@@ -24,7 +24,7 @@ export default function Home() {
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/outsourcing-manages-services" >Outstanding & Managed Services</Link>
+                                                    <Link href="/outsourcing-manages-services" >Outsourcing and Managed Services </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/strategic-consulting" className="current">Strategic Consulting</Link>
