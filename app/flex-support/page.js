@@ -18,7 +18,7 @@ export default function Home() {
                                                     <Link href="/application-development" >Application Development</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/data-science" >
+                                                     <Link href="/data-science" >
                                                         Data Science & Analytics Consulting
                                                     </Link>
                                                 </li>

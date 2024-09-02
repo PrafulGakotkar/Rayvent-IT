@@ -58,10 +58,10 @@ export default function Footer1() {
 
                                 <div className="links-widget footer-widget ml_50 mt_20">
                                     <div className="widget-title">
-                                        <h3 className="links-list"><li><Link href="/flex-support">Flex Support</Link></li></h3>
+                                        <h3 className="links-list"><li><Link href="/flex-support" style={{fontSize:18}}>Flex Support</Link></li></h3>
                                     </div>
                                     <div className="widget-title">
-                                        <h3>Security,Risk and Compliance</h3>
+                                        <h3 style={{fontSize:18}}>Security,Risk and Compliance</h3>
                                     </div>
                                     <div className="widget-content">
                                         <ul className="links-list clearfix">
