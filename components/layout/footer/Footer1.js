@@ -21,7 +21,7 @@ export default function Footer1() {
                                     </figure>
                                     <div className="links-widget footer-widget ml_50">
                                         <div className="widget-title">
-                                            <h3>Quick Link</h3>
+                                            <h3>Quick Links</h3>
                                         </div>
                                         <div className="widget-content">
                                             <ul className="links-list clearfix">

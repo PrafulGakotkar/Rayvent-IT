@@ -24,7 +24,7 @@ export default function Footer2() {
                             <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div className="links-widget footer-widget ml_50">
                                 <div className="widget-title">
-                                    <h3>Quick Link</h3>
+                                    <h3>Quick Links</h3>
                                 </div>
                                 <div className="widget-content">
                                     <ul className="links-list clearfix">
