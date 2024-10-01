@@ -63,7 +63,6 @@ export default function Home() {
                                     <div className="career-sidebar ml_40">
                                         <h3>Quick Contact</h3>
                                         <div className="form-inner">
-                                            {/* <form action="career.html" method="post"> */}
                                             <form action="" method="post">
                                                 <div className="form-group">
                                                     <input type="text" name="name" placeholder="Name" required />

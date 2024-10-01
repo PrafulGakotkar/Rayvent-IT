@@ -100,7 +100,6 @@ export default function Home() {
                                 </div>
                                 <div className="col-lg-8 col-md-12 col-sm-12 form-column">
                                     <div className="form-inner">
-                                        {/* <form method="post" action="sendemail.js" id="contact-form" className="default-form"> */}
                                         <form method="post" action="" id="contact-form" className="default-form">
                                             <div className="row clearfix">
                                                 <div className="col-lg-6 col-md-6 col-sm-12 form-group">
