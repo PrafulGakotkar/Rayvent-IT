@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout"
 import Testimonial from "@/components/sections/home2/Testimonial"
 import Link from "next/link"
 import { useState } from "react"
+import Head from 'next/head';
 export default function Home() {
 
     const [activeIndex, setActiveIndex] = useState(1)
@@ -11,6 +12,11 @@ export default function Home() {
     }
     return (
         <>
+            <Head>
+                {/* <title>SAP Consulting & Implementation Services</title> */}
+                <meta name="description" content="Provide expert SAP consulting, implementation, support, and staffing services to enhance business performance and customer satisfaction." />
+                <meta name="keywords" content="SAP consulting services, SAP implementation services, SAP support, SAP staffing, SAP technology solutions, business performance, SAP customer satisfaction, SAP ERP solutions" />
+            </Head>
             <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Clients & Partners">
                 <div>
                     <section className="about-section p_relative">
@@ -120,7 +126,7 @@ export default function Home() {
 
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image_block_one">
-                                        <div className="image-box p_relative pr_50 mr_30" style={{padding:20}}>
+                                        <div className="image-box p_relative pr_50 mr_30" style={{ padding: 20 }}>
                                             <figure className="image image-1"><img src="/assets/images/resource/about-3.png" alt="" /></figure>
                                             {/* <figure className="image image-2"><img src="assets/images/resource/about-2.jpg" alt="" /></figure> */}
                                             {/* <div className="video-inner">

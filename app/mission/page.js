@@ -9,6 +9,8 @@ import { useState } from 'react'
 import ReactCurvedText from 'react-curved-text'
 import ModalVideo from 'react-modal-video'
 import WhyChooseUs from "@/components/sections/home1/WhyChooseUs"
+import Head from 'next/head';
+
 export default function Home() {
     const [isOpen, setOpen] = useState(false)
     const [isActive, setIsActive] = useState({
@@ -30,6 +32,12 @@ export default function Home() {
     }
     return (
         <>
+
+            <Head>
+                {/* <title>SAP Consulting & Implementation Services</title> */}
+                <meta name="description" content="Provide expert SAP consulting, implementation, support, and staffing services to enhance business performance and customer satisfaction." />
+                <meta name="keywords" content="SAP consulting services, SAP implementation services, SAP support, SAP staffing, SAP technology solutions, business performance, SAP customer satisfaction, SAP ERP solutions" />
+            </Head>
             <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="About Us">
                 {/* about-section */}
                 <section className="about-section p_relative">
@@ -82,14 +90,14 @@ export default function Home() {
                                                 "Deliver innovative software solutions and services, on time with quality, and as per customer expectations". RAYVEN IT resources attained vast experience in providing software services and solutions to its clients across the globe which reflects our versatility in servicing customer requirements.We strive to serve our clients better on every project and are always climbing one step on the ladder of customer service by delivering more than their expectation. Customer Delight is our true achievement; and this we achieve through our high quality services.We aim at delivering superior quality projects by imbibing these parameters in house through:</p>
                                         </div>
 
-                                        <ul className="list-style-one clearfix" style={{color: "rgba(255, 255, 255, 0.7)"}}>
-                                        <li>Improvement of process</li>
-                                        <li>High team spirit</li>
-                                        <li>Smart working culture rather than over working.</li>
-                                        <li>HR initiatives in improving employees overall quality of life</li>
-                                        <li>Cost control measures for profit sustainability.</li>
-                                        <li>Complying with work, health, safety and professional norms.</li>
-                                    </ul>
+                                        <ul className="list-style-one clearfix" style={{ color: "rgba(255, 255, 255, 0.7)" }}>
+                                            <li>Improvement of process</li>
+                                            <li>High team spirit</li>
+                                            <li>Smart working culture rather than over working.</li>
+                                            <li>HR initiatives in improving employees overall quality of life</li>
+                                            <li>Cost control measures for profit sustainability.</li>
+                                            <li>Complying with work, health, safety and professional norms.</li>
+                                        </ul>
 
                                     </div>
                                 </div>

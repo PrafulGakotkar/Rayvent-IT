@@ -2,6 +2,8 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
+import Head from 'next/head';
+
 export default function Home() {
     const [isActive, setIsActive] = useState({
         status: false,
@@ -23,6 +25,11 @@ export default function Home() {
 
     return (
         <>
+        <Head>
+        {/* <title>SAP Consulting & Implementation Services</title> */}
+        <meta name="description" content="Provide expert SAP consulting, implementation, support, and staffing services to enhance business performance and customer satisfaction." />
+        <meta name="keywords" content="SAP consulting services, SAP implementation services, SAP support, SAP staffing, SAP technology solutions, business performance, SAP customer satisfaction, SAP ERP solutions" />
+      </Head>
             <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Career">
                 <div>
 
@@ -56,7 +63,8 @@ export default function Home() {
                                     <div className="career-sidebar ml_40">
                                         <h3>Quick Contact</h3>
                                         <div className="form-inner">
-                                            <form action="career.html" method="post">
+                                            {/* <form action="career.html" method="post"> */}
+                                            <form action="" method="post">
                                                 <div className="form-group">
                                                     <input type="text" name="name" placeholder="Name" required />
                                                 </div>
@@ -125,19 +133,18 @@ export default function Home() {
                                 <p className="mt_40" style={{ textAlign: 'justify' }}>To apply, Please specify the position applying for and send resume to:
                                     info@rayvenit.solutions / resumes@rayvenit.solutions OR RAYVEN IT Solutions LLC, 345 Plainfield Ave., Ste. 303, Edison, NJ 08817.</p>
                             </div>
+
                             <ul className="accordion-box">
                                 {/*Accordion Block*/}
                                 <li className="accordion block">
-                                    <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
+                                    <div className='acc-btn'>
                                         <div className="icon-box"></div>
                                         <h3>JR. PROGRAMMER ANALYSTS</h3>
                                     </div>
-                                    <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
+                                    <div className="acc-content current">
 
                                         <div className="inner-box">
-                                            {/* <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa.</p> */}
-                                            {/* <h4>Duties and Responsibilities:</h4> */}
-                                            {/* <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p> */}
+
                                             <ul className="list-style-one clearfix">
                                                 <li>UNDER SUPERVISION, DEVELOP AND WRITE COMPUTER PROGRAMS TO STORE, LOCATE, AND RETRIEVE SPECIFIC DOCUMENTS, DATA, AND INFORMATION</li>
                                                 <li>CREATE TABLES, FLOW CHARTS, AND DIAGRAMS</li>
@@ -146,29 +153,19 @@ export default function Home() {
                                                 <li>ANALYZE, REVIEW AND WRITE SCRIPTS</li>
                                                 <li>WORK WITH VARIOUS TECHNOLOGIES</li>
                                             </ul>
-                                            {/* <h4>Qualifications:</h4> */}
-                                            {/* <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p> */}
-                                            {/* <ul className="list-style-one clearfix">
-                                                            <li>Holiday Trash & Recycling</li>
-                                                            <li>Things To Do In Govarnex</li>
-                                                        </ul> */}
-                                            {/* <div className="btn-box">
-                                                            <Link href="/career" className="theme-btn-one">Apply Now</Link>
-                                                        </div> */}
+
                                         </div>
                                     </div>
                                 </li>
-                                {/*Accordion Block*/}
                                 <li className="accordion block">
-                                    <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}>
+                                    <div className='acc-btn'>
                                         <div className="icon-box"></div>
-                                        <h3> PROGRAMMER ANALYSTS/JAVA</h3>
+                                        <h3>PROGRAMMER ANALYSTS/JAVA</h3>
                                     </div>
-                                    <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
+                                    <div className="acc-content current">
+
                                         <div className="inner-box">
-                                            {/* <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa.</p> */}
-                                            {/* <h4>Duties and Responsibilities:</h4> */}
-                                            {/* <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p> */}
+
                                             <ul className="list-style-one clearfix">
                                                 <li>DEVELOP AND WRITE COMPUTER PROGRAMS TO STORE, LOCATE, AND RETRIEVE SPECIFIC DOCUMENTS, DATA, AND INFORMATION</li>
                                                 <li>CREATE TABLES, FLOW CHARTS, AND DIAGRAMS</li>
@@ -177,20 +174,203 @@ export default function Home() {
                                                 <li>ANALYZE, REVIEW AND WRITE SCRIPTS</li>
                                                 <li>WORK WITH JAVA TOOLS</li>
                                             </ul>
-                                            {/* <h4>Qualifications:</h4> */}
-                                            {/* <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p> */}
-                                            {/* <ul className="list-style-one clearfix">
-                                                <li>Holiday Trash & Recycling</li>
-                                                <li>Things To Do In Govarnex</li>
-                                            </ul> */}
-                                            {/* <div className="btn-box">
-                                                <Link href="/career" className="theme-btn-one">Apply Now</Link>
-                                            </div> */}
+
                                         </div>
                                     </div>
                                 </li>
-                                {/*Accordion Block*/}
                                 <li className="accordion block">
+                                    <div className='acc-btn'>
+                                        <div className="icon-box"></div>
+                                        <h3>PROGRAMMER ANALYSTS/SAP ABAP/4</h3>
+                                    </div>
+                                    <div className="acc-content current">
+
+                                        <div className="inner-box">
+
+                                            <ul className="list-style-one clearfix">
+                                                <li>DEVELOP AND WRITE COMPUTER PROGRAMS TO STORE, LOCATE, AND RETRIEVE SPECIFIC DOCUMENTS, DATA, AND INFORMATION</li>
+                                                <li>CREATE TABLES, FLOW CHARTS, AND DIAGRAMS</li>
+                                                <li>GATHER AND EVALUATE USER REQUIREMENTS AND PROCEDURES TO CUSTOMIZE EXISTING PROGRAMS AND CONVERT PROJECT SPECIFICATIONS</li>
+                                                <li>CODE, TEST, AND DEBUG PROGRAMS</li>
+                                                <li>ANALYZE, REVIEW AND WRITE SCRIPTS</li>
+                                                <li>WORK WITH SAP ABAP/4 TOOLS</li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="accordion block">
+                                    <div className='acc-btn'>
+                                        <div className="icon-box"></div>
+                                        <h3>SR. BUSINESS ANALYSTS/SAP FUNCTIONAL CONSULTANTS</h3>
+                                    </div>
+                                    <div className="acc-content current">
+
+                                        <div className="inner-box">
+
+                                            <ul className="list-style-one clearfix">
+                                                <li>GATHER REQUIREMENTS AND SPECIFICATIONS FROM THE END USERS FOR THE CUSTOMIZATION AND CONFIGURATION OF THE APPLICATION</li>
+                                                <li>PERFORM GAP ANALYSIS FOR THE PROCESS AND SYSTEM FUNCTIONALITY</li>
+                                                <li>ESTIMATE THE TIME/RESOURCE (SKILL AND FUND) REQUIREMENTS</li>
+                                                <li>PERFORM CUSTOMIZATION FOR THE BASIC DATA USING SAP</li>
+                                                <li>PROVIDE DECISION ON PLANNING STRATEGY AND CONFIGURATION, CUSTOMIZATION OF DEMAND MANAGEMENT</li>
+                                                <li>PERFORM DATA TRANSFER BETWEEN SAP SYSTEMS TO NON-SAP SYSTEMS, PROTOTYPE AND TEST REQUIREMENTS</li>
+                                                <li>PERFORM CUSTOMIZATION FOR PRODUCTION CONTROL</li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="accordion block">
+                                    <div className='acc-btn'>
+                                        <div className="icon-box"></div>
+                                        <h3>BUSINESS INTELLIGENCE SOLUTION ARCHITECTS/ SR CONSULTANTS</h3>
+                                    </div>
+                                    <div className="acc-content current">
+
+                                        <div className="inner-box">
+
+                                            <ul className="list-style-one clearfix">
+                                                <li>LEADS ALL ASPECTS OF THE DELIVERY OF BUSINESS INTELLIGENCE SOLUTION & RELATED COMPONENTS, INTERFACES, CONVERSIONS, HW/SW OVERSIGHT</li>
+                                                <li>PROVIDE ANALYTICS AND REPORTING STRATEGY & WORKS ACROSS BUSINESS/TECHNOLOGY TEAMS TO ENSURE ALIGNMENT BETWEEN BUSINESS SOLUTION DEFINITION & SYSTEMS ARCHITECTURE FOR THE ORGANIZATION
+                                                </li>
+                                                <li>DESIGN, DEVELOP AND IMPLEMENT COMPLEX BUSINESS INTELLIGENCE SOLUTIONS USING SAP AND OTHER TECHNOLOGIES</li>
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="accordion block">
+                                    <div className='acc-btn'>
+                                        <div className="icon-box"></div>
+                                        <h3>SR. MANAGEMENT CONSULTANTS</h3>
+                                    </div>
+                                    <div className="acc-content current">
+
+                                        <div className="inner-box">
+
+                                            <ul className="list-style-one clearfix">
+                                                <li>ANALYZE BUSINESS NEEDS TO RECOMMEND IMPROVEMENTS AND ENHANCEMENTS IN ORGANIZATIONAL MANAGEMENT</li>
+                                                <li>COMMUNICATE AND IMPLEMENT NEW IDEAS AND DIAGNOSTIC TOOLS FOR IMPROVING OPERATIONS INCLUDING BLUEPRINTING, CONCEPTUAL DESIGN, CONFIGURATION, AS-IS AND TO-BE PROCESSES</li>
+                                                <li>COORDINATE AND MAINTAIN DOCUMENTATION OF WORK FLOW AND BUSINESS LOGIC FOR THE CURRENT SYSTEM TO IMPROVE PRODUCTIVITY</li>
+                                                <li>WORK WITH SAP HCM, NW BASIC, SECURITY SOLMAN, ARCHIVING, PROCUREMENT, SRM, EWM, PROJECT MANG, TDMS, GRC, PANAYA AND ISM</li>
+                                                <li>SUPERVISES SENIOR BUSINESS ANALYSTS AND SAP FUNCTIONAL CONSULTANTS</li>
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="accordion block">
+                                    <div className='acc-btn'>
+                                        <div className="icon-box"></div>
+                                        <h3>SAP FUNCTIONAL PROJECT MANAGER</h3>
+                                    </div>
+                                    <div className="acc-content current">
+
+                                        <div className="inner-box">
+
+                                            <ul className="list-style-one clearfix">
+                                                <li>TECHNICAL ANALYSIS OF CLIENT’S REQUIREMENTS AND DEVELOP CUSTOM PROGRAMS BY PREPARING FUNCTIONAL, TECHNICAL SPECIFICATIONS AND ITS DEVELOPMENT. SAP IMPLEMENTATION WITH ASAP AND ACTIVATE METHODOLOGY IN SAP PS/IM, PS/CO, FICO WORK STREAM. STREAMLINE FUNCTIONS FOR THE IMPLEMENTATION, PERFORMANCE TROUBLESHOOTING, CONFIGURATION, AND MIGRATIONS OF SAP SYSTEMS</li>
+                                                <li>WORK AS TECHNICAL SPECIALIST FOR SAP MODULES PS/IM, PS/CO & FI/CO, CONTRIBUTE TO STRATEGY DEFINITION, CONCEPTUAL PLANNING, AND THE REALIZATION OF THE BUSINESS AND TECHNICAL REQUIREMENTS AROUND THE DAY-TO-DAY OPERATION OF SAP LANDSCAPES INCLUDING SAP ECC, S/4 HANA, S/4 CLOUD IMPLEMENTATION EXPERIENCE IN PS/IM, PS/CO, FICO MODULES. SAP PUBLIC CLOUD IMPLEMENTATION USING SAAS, PAAS AND IAAS SERVICES
+                                                </li>
+                                                <li>GLOBAL ROLLOUTS, BIG-BANG PROJECT IMPLEMENTATIONS, AND CONFIGURATIONS FOR SAP PS/IM, PS/CO, FI/CO MODULES. PROVIDE EXPERTISE FOR GO-LIVE, HYPER CARE SUPPORT, POST GO-LIVE, AND PRODUCTION SUPPORT FOR PS/IM, PS/CO & FI/CO MODULES</li>
+                                                <li>BLUE PRINTING AND SOLUTION OF ENGINEER TO ORDER (ETO), MAKE TO ORDER (MTO) AND MAKE TO STOCK (MTS), ASSEMBLY PROCESSING SCENARIOS IN SAP PROJECT SYSTEMS</li>
+                                                <li>CONFIGURATION OF THE PROJECT DEFINITION, WORK BREAK DOWN STRUCTURE, NETWORKS, ACTIVITY, RESULT ANALYSIS, SETTLEMENT, REVENUE RECOGNITION IN SAP SYSTEMS</li>
+                                                <li>PREPARATION OF TECHNICAL DOCUMENTS FOR FI/CO, SAP PS/IM, PS/CO WORK STREAMS. INVOLVE IN CUSTOMIZING, ENHANCEMENTS, CUSTOM REPORTING, AND SUPPORT FOR PS/IM AND PS/CO MODULES. DELIVER CROSS MODULE INTEGRATION FOR SAP PS WITH MODULES LIKE FI, MM, SD, PP, CO, IM, PM
+                                                </li>
+                                                <li>PREPARATION OF DOCUMENTS LIKE CONFIGURATION, FUNCTIONAL DESIGN DOCUMENTS (FDD), TECHNICAL DESIGN DOCUMENT (TDD), TEST CASES/SCRIPTS
+                                                </li>
+                                                <li>PREPARE MASTER DATA TEMPLATES FOR BDCS FOR MASTER DATA UPLOAD. WORKING KNOWLEDGE IN FUNCTION MODULES AND BAPI PROGRAMS</li>
+                                                <li>DEVELOPMENT OF PROGRAMS, NEW OBJECTS FOR CUSTOMIZATION, DECOMMISSIONING AND CUSTOM PROGRAM/REPORTING BY RAISING CHANGE REQUESTS
+                                                </li>
+                                                <li>WORK WITH EXTERNAL SYSTEMS LIKE REPLICON, CONCUR, PROFINDA, KRONOS, PRIMAVERA, KANTATA PSA (FORMALLY MAVENLINK), REVSTREAM ETC., FOR TIME, EXPENSE, RESOURCE PROCESSING INTO SAP
+                                                </li>
+                                                <li>INTERACT WITH THE MIDDLEWARE TEAMS LIKE SAP PI/PO, SOA, WEB METHODS, AND TIBCO TO ESTABLISH THE CONNECTIVITY BETWEEN 3RD PARTY SYSTEMS AND SAP AND RESOLVE ANY INTERFACE ISSUES</li>
+                                                <li>SYSTEM INTEGRATION, REGRESSION TESTS, SECURITY AUTHORIZATIONS. ASSIST THE CLIENT IN PREPARATION OF THE INTEGRATION AND UAT SCENARIOS. DEFECT RESOLUTION AND COORDINATION DURING SIT AND INTERFACE TESTING DURING REALIZATION</li>
+                                                <li>PERFORMING DATA ANALYSIS, DATA VALIDATION, DATA CLEANING AND DATA TRANSFORMATION, MIGRATION COCKPIT AND CONVERSION TEMPLATES
+                                                </li>
+                                                <li>ITIL, ALM METHODOLOGIES FOR SUCCESSFUL IMPLEMENTATION OF SAP SOFTWARE</li>
+                                                <li>DEVELOP STRATEGIES, STANDARDS, AND BEST PRACTICES FOR USING THE LATEST SAP PRODUCTS AND OTHER TECHNOLOGIES. STAY CURRENT ON THE FEATURES & FUNCTIONALITY OF SAP PRODUCTS, FOCUSING ON TECHNOLOGY TO IMPROVE PERFORMANCE, AVAILABILITY, STABILITY & WORK EFFICIENCIES
+                                                </li>
+                                                <li>BACHELOR’S DEGREE IN IN COMPUTER APPLICATIONS OR COMPUTER SCIENCE</li>
+                                                <li>SHOULD BE OPEN TO RELOCATE AND OR TRAVEL ANYWHERE IN COUNTRY
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            {/* <ul className="accordion-box">
+                                {/*Accordion Block*/}
+                            {/*  <li className="accordion block">
+                                    <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
+                                        <div className="icon-box"></div>
+                                        <h3>JR. PROGRAMMER ANALYSTS</h3>
+                                    </div>
+                                    <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
+
+                                        <div className="inner-box">
+                                            {/* <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa.</p> */}
+                            {/* <h4>Duties and Responsibilities:</h4> */}
+                            {/* <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p> */}
+                            {/*      <ul className="list-style-one clearfix">
+                                                <li>UNDER SUPERVISION, DEVELOP AND WRITE COMPUTER PROGRAMS TO STORE, LOCATE, AND RETRIEVE SPECIFIC DOCUMENTS, DATA, AND INFORMATION</li>
+                                                <li>CREATE TABLES, FLOW CHARTS, AND DIAGRAMS</li>
+                                                <li>GATHER AND EVALUATE USER REQUIREMENTS AND PROCEDURES TO CUSTOMIZE EXISTING PROGRAMS AND CONVERT PROJECT SPECIFICATIONS</li>
+                                                <li>UNDER SUPERVISION, CODE, TEST, AND DEBUG PROGRAMS</li>
+                                                <li>ANALYZE, REVIEW AND WRITE SCRIPTS</li>
+                                                <li>WORK WITH VARIOUS TECHNOLOGIES</li>
+                                            </ul>
+                                            {/* <h4>Qualifications:</h4> */}
+                            {/* <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p> */}
+                            {/* <ul className="list-style-one clearfix">
+                                                            <li>Holiday Trash & Recycling</li>
+                                                            <li>Things To Do In Govarnex</li>
+                                                        </ul> */}
+                            {/* <div className="btn-box">
+                                                            <Link href="/career" className="theme-btn-one">Apply Now</Link>
+                                                        </div> */}
+                            {/*  </div>
+                                    </div>
+                                </li>
+                                {/*Accordion Block*/}
+                            {/*  <li className="accordion block">
+                                    <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}>
+                                        <div className="icon-box"></div>
+                                        <h3> PROGRAMMER ANALYSTS/JAVA</h3>
+                                    </div>
+                                    <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
+                                        <div className="inner-box">
+                                            {/* <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa.</p> */}
+                            {/* <h4>Duties and Responsibilities:</h4> */}
+                            {/* <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p> */}
+                            {/*           <ul className="list-style-one clearfix">
+                                                <li>DEVELOP AND WRITE COMPUTER PROGRAMS TO STORE, LOCATE, AND RETRIEVE SPECIFIC DOCUMENTS, DATA, AND INFORMATION</li>
+                                                <li>CREATE TABLES, FLOW CHARTS, AND DIAGRAMS</li>
+                                                <li>GATHER AND EVALUATE USER REQUIREMENTS AND PROCEDURES TO CUSTOMIZE EXISTING PROGRAMS AND CONVERT PROJECT SPECIFICATIONS</li>
+                                                <li>CODE, TEST, AND DEBUG PROGRAMS</li>
+                                                <li>ANALYZE, REVIEW AND WRITE SCRIPTS</li>
+                                                <li>WORK WITH JAVA TOOLS</li>
+                                            </ul>
+                                            {/* <h4>Qualifications:</h4> */}
+                            {/* <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p> */}
+                            {/* <ul className="list-style-one clearfix">
+                                                <li>Holiday Trash & Recycling</li>
+                                                <li>Things To Do In Govarnex</li>
+                                            </ul> */}
+                            {/* <div className="btn-box">
+                                                <Link href="/career" className="theme-btn-one">Apply Now</Link>
+                                            </div> */}
+                            {/*      </div>
+                                    </div>
+                                </li>
+                                {/*Accordion Block*/}
+                            {/* <li className="accordion block">
                                     <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}>
                                         <div className="icon-box"></div>
                                         <h3>PROGRAMMER ANALYSTS/SAP ABAP/4</h3>
@@ -198,9 +378,9 @@ export default function Home() {
                                     <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
                                         <div className="inner-box">
                                             {/* <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa.</p> */}
-                                            {/* <h4>Duties and Responsibilities:</h4> */}
-                                            {/* <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p> */}
-                                            <ul className="list-style-one clearfix">
+                            {/* <h4>Duties and Responsibilities:</h4> */}
+                            {/* <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p> */}
+                            {/*          <ul className="list-style-one clearfix">
                                                 <li>DEVELOP AND WRITE COMPUTER PROGRAMS TO STORE, LOCATE, AND RETRIEVE SPECIFIC DOCUMENTS, DATA, AND INFORMATION</li>
                                                 <li>CREATE TABLES, FLOW CHARTS, AND DIAGRAMS</li>
                                                 <li>GATHER AND EVALUATE USER REQUIREMENTS AND PROCEDURES TO CUSTOMIZE EXISTING PROGRAMS AND CONVERT PROJECT SPECIFICATIONS</li>
@@ -212,7 +392,7 @@ export default function Home() {
                                     </div>
                                 </li>
                                 {/*Accordion Block*/}
-                                <li className="accordion block">
+                            {/* <li className="accordion block">
                                     <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(4)}>
                                         <div className="icon-box"></div>
                                         <h3> SR. BUSINESS ANALYSTS/SAP FUNCTIONAL CONSULTANTS</h3>
@@ -234,7 +414,7 @@ export default function Home() {
                                 </li>
 
                                 {/*Accordion Block*/}
-                                <li className="accordion block">
+                            {/*   <li className="accordion block">
                                     <div className={isActive.key == 5 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(5)}>
                                         <div className="icon-box"></div>
                                         <h3> BUSINESS INTELLIGENCE SOLUTION ARCHITECTS/ SR CONSULTANTS</h3>
@@ -253,7 +433,7 @@ export default function Home() {
                                 </li>
 
                                 {/*Accordion Block*/}
-                                <li className="accordion block">
+                            {/*   <li className="accordion block">
                                     <div className={isActive.key == 6 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(6)}>
                                         <div className="icon-box"></div>
                                         <h3> SR. MANAGEMENT CONSULTANTS</h3>
@@ -274,7 +454,7 @@ export default function Home() {
                                 </li>
 
                                 {/*Accordion Block*/}
-                                <li className="accordion block">
+                            {/*    <li className="accordion block">
                                     <div className={isActive.key == 7 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(7)}>
                                         <div className="icon-box"></div>
                                         <h3>SAP FUNCTIONAL PROJECT MANAGER</h3>
@@ -304,7 +484,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </li>
-                            </ul>
+                            </ul> */}
                             <div className="sec-title mb_50">
                                 {/* <span className="sub-title">Get Opportunities</span> */}
                                 {/* <h2>OPEN JOBS</h2> */}

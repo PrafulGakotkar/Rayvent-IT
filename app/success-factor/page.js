@@ -2,6 +2,8 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from "react"
+import Head from 'next/head';
+
 export default function Home() {
 
     const [activeIndex, setActiveIndex] = useState(1)
@@ -10,12 +12,17 @@ export default function Home() {
     }
     return (
         <>
+            <Head>
+                {/* <title>SAP Consulting & Implementation Services</title> */}
+                <meta name="description" content="Provide expert SAP consulting, implementation, support, and staffing services to enhance business performance and customer satisfaction." />
+                <meta name="keywords" content="SAP consulting services, SAP implementation services, SAP support, SAP staffing, SAP technology solutions, business performance, SAP customer satisfaction, SAP ERP solutions" />
+            </Head>
             <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Success Factor">
                 <div>
                     <section className="about-section p_relative">
                         <div className="auto-container">
                             <div className="row clearfix">
-                                
+
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                     <div className="content_block_one">
                                         <div className="content-box p_relative ml_30 mb_30">

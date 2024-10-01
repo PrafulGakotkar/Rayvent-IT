@@ -4,10 +4,17 @@ import Layout from "@/components/layout/Layout"
 import AuditSlider1 from "@/components/slider/AuditSlider1"
 import ServiceSlider1 from "@/components/slider/ServiceSlider1"
 import Link from "next/link"
+import Head from 'next/head';
+
 export default function Home() {
 
   return (
     <>
+      <Head>
+        {/* <title>SAP Consulting & Implementation Services</title> */}
+        <meta name="description" content="Provide expert SAP consulting, implementation, support, and staffing services to enhance business performance and customer satisfaction." />
+        <meta name="keywords" content="SAP consulting services, SAP implementation services, SAP support, SAP staffing, SAP technology solutions, business performance, SAP customer satisfaction, SAP ERP solutions" />
+      </Head>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Outsourcing and Managed Services">
         <div>
           <section className="service-details p_relative">

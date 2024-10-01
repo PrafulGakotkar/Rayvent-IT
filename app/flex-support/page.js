@@ -1,9 +1,17 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import Head from 'next/head';
+
 export default function Home() {
 
     return (
         <>
+
+        <Head>
+        {/* <title>SAP Consulting & Implementation Services</title> */}
+        <meta name="description" content="Provide expert SAP consulting, implementation, support, and staffing services to enhance business performance and customer satisfaction." />
+        <meta name="keywords" content="SAP consulting services, SAP implementation services, SAP support, SAP staffing, SAP technology solutions, business performance, SAP customer satisfaction, SAP ERP solutions" />
+      </Head>
             <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Flex Support">
                 <div>
                     <section className="service-details p_relative">
@@ -59,7 +67,7 @@ export default function Home() {
                                                 <div
                                                     className="bg-layer"
                                                     style={{
-                                                        backgroundImage: 'url(/assets/images/service/service-7png)',
+                                                        backgroundImage: 'url(/assets/images/service/service-7.png)',
                                                     }}
                                                 ></div>
                                                 <h3>
@@ -86,7 +94,7 @@ export default function Home() {
 
                                         <div className="content-one mb_90">
                                             <figure className="image-box">
-                                                <img src="/assets/images/service/flex-supportpng" alt="" />
+                                                <img src="/assets/images/service/flex-support.png" alt="" />
                                             </figure>
                                             <div className="text">
                                                 <h2>RAYVEN IT's FLEX Support
@@ -126,7 +134,7 @@ export default function Home() {
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                                                     <figure className="image-box">
-                                                        <img src="/assets/images/service/flex-support-advantagespng" alt="" />
+                                                        <img src="/assets/images/service/flex-support-advantages.png" alt="" />
                                                     </figure>
                                                 </div>
                                             </div>

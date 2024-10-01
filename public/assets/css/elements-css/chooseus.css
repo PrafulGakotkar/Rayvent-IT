@@ -172,7 +172,7 @@
 
 .accordion-box .accordion .acc-btn .icon-box:before{
 	position: absolute;
-	content: '\e917';
+	/* content: '\e917'; */
 	font-family: 'icomoon';
 	text-align: center;
 	width: 26px;

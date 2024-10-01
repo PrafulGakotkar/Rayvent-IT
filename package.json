@@ -10,10 +10,15 @@
     "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
   },
   "dependencies": {
+    "body-parser": "^1.20.3",
     "bootstrap-touchspin": "^4.7.3",
+    "concurrently": "^9.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
     "isotope-layout": "^3.0.6",
     "lightgallery": "^2.7.2",
-    "next": "13.4.19",
+    "next": "^14.2.13",
+    "nodemailer": "^6.9.15",
     "react": "18.2.0",
     "react-curved-text": "^2.0.2",
     "react-dom": "18.2.0",
